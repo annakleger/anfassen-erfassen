@@ -162,6 +162,11 @@ hr {
     width: 100vw;
 }
 
+
+/* .header_links {
+    padding-left: 2%;
+} */
+
 .img_coordinates_container {
     display: flex;
 }
