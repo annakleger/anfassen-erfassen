@@ -20,7 +20,7 @@ body {
     font-family: Regular_Lt;
     font-weight: 400;
     font-style: normal;
-    background-color: #050d3c;
+    background-color: #20213d;
     color: #050d3c;
 }
 
@@ -35,7 +35,7 @@ html {
 }
 
 a {
-    color: #893c6f;
+    color: #84416e;
     font-size: 1.2 rem;
     font-weight: 500;
     text-decoration: none;
@@ -78,6 +78,6 @@ a:hover {
     display: flex;
     position: sticky;
     top: 0;
-    background-color: #050d3c;
+    background-color: #20213d;
     width: 100vw;
 }

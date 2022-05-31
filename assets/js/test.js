@@ -85,8 +85,10 @@ function setup() {
 
     angleMode(DEGREES);
 
-    frameRate(10);
+    frameRate(8);
     //noLoop();
+
+    background('#20213d');
 
 }
 
