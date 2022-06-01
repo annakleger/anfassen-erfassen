@@ -15,8 +15,6 @@ let counter = 0;
 
 let patterns = new Array();
 
-
-
 // This function loads resources that will be used later.
 function preload() {
     let url_test = "/assets/json/tracking.json";
@@ -86,9 +84,9 @@ function setup() {
     cell_size = width / col
 
     //save-button erstellen
-    let save_button = createButton("Speichern");
-    save_button.position(40, 990);
-    save_button.mousePressed(saveSketch);
+    // let save_button = createButton("Speichern");
+    // save_button.position(40, 990);
+    // save_button.mousePressed(saveSketch);
 
     angleMode(DEGREES);
 
