@@ -24,10 +24,75 @@ body {
     height: 200vh;
 }
 
+img {
+    width: 25vw;
+    height: auto;
+    padding: 1.8vw;
+}
+
+#beruehrungsprofile {
+    position: absolute;
+    top: 225vh;
+    left: 6vw;
+}
+
 h1 {
     font-family: Italic_30_Lt;
     display: inline-block;
     color: #893c6f;
+}
+
+h2.namen_beruehrungsprofile {
+    color: #893c6f;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    opacity: 70%;
+    display: inline-block;
+}
+
+#namen {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 4vw;
+    /* padding-top: 75vh; */
+}
+
+h2.arrow_text {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 3.4rem;
+    left: 48%;
+    opacity: 70%;
+}
+
+h2.arrow_text_2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 3.4rem;
+    left: 43%;
+    opacity: 70%;
+}
+
+h2.arrow_text_3 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 100;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 3.4rem;
+    left: 46.5%;
+    opacity: 70%;
+}
+
+h2.arrow_text:hover {
+    opacity: 100%;
 }
 
 html {
@@ -42,6 +107,22 @@ a {
     padding-left: 5%;
     padding-top: 2%;
     font-size: 1.4rem;
+}
+
+p {
+    color: #84416e;
+    position: absolute;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    width: 60%;
+    top: 36%;
+    left: 22%;
+}
+
+#main_title_top {
+    position: absolute;
+    top: 0;
 }
 
 #anfassen_main {
@@ -164,37 +245,84 @@ section {
     height: 100vh; */
 }
 
-#section02 h1 {
-    top: 100%;
-}
-
 #section02 header {
     top: 1550;
 }
 
-#section02 a span {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    width: 46px;
-    height: 46px;
-    margin-left: -23px;
-    border: 1px solid #fff;
-    border-radius: 100%;
-    box-sizing: border-box;
+#section02 a {
+    padding-top: 60px;
+    /* width: 100vw;
+    height: 100vh; */
 }
 
-#section02 a span::after {
+#section02 a span {
     position: absolute;
-    top: 50%;
+    bottom: 0;
     left: 50%;
-    content: '';
-    width: 16px;
-    height: 16px;
-    margin: -12px 0 0 -8px;
-    border-left: 1px solid #fff;
-    border-bottom: 1px solid #fff;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 36px;
+    margin-left: -12px;
+    border-left: 1px solid #84416e;
+    border-bottom: 1px solid #84416e;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     box-sizing: border-box;
+}
+
+#section02 a span:hover {
+    border-left: 2px solid #84416e;
+    border-bottom: 2px solid #84416e;
+}
+
+#section03 a {
+    padding-top: 60px;
+    /* width: 100vw;
+    height: 100vh; */
+}
+
+#section03 a span {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 36px;
+    margin-left: -12px;
+    border-left: 1px solid #84416e;
+    border-bottom: 1px solid #84416e;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+}
+
+#section03 a span:hover {
+    border-left: 2px solid #84416e;
+    border-bottom: 2px solid #84416e;
+}
+
+#section04 a {
+    padding-top: 60px;
+    /* width: 100vw;
+    height: 100vh; */
+}
+
+#section04 a span {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 36px;
+    margin-left: -12px;
+    border-left: 1px solid #84416e;
+    border-bottom: 1px solid #84416e;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+}
+
+#section04 a span:hover {
+    border-left: 2px solid #84416e;
+    border-bottom: 2px solid #84416e;
 }

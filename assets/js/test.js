@@ -79,7 +79,7 @@ function setup() {
     //var coordinate_canvas = createCanvas(700, 700);
 
     var coordinate_canvas = createCanvas(canvasHoehe, canvasHoehe);
-    coordinate_canvas.position(windowWidth / 2 - canvasHalbeBreite, windowHeight / 2 - canvasHalbeBreite);
+    coordinate_canvas.position(windowWidth / 2 - canvasHalbeBreite, windowHeight * 2 - canvasHoehe - canvasHoehe * 0.15);
 
     cell_size = width / col
 
