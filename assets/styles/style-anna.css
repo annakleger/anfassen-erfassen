@@ -37,6 +37,10 @@
     color: #fff;
 }
 
+.id {
+    scroll-padding-top: 120px;
+}
+
 -webkit-overflow-scrolling: touch;
 scroll-snap-type: mandatory;
 scroll-snap-points-y: repeat(300px);
