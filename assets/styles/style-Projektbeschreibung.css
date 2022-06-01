@@ -67,7 +67,6 @@ html {
 .container {
     display: flex;
     justify-content: space-around;
-    padding-top: 0px;
 }
 
 .item-left {

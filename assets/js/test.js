@@ -2,6 +2,9 @@ let test_data;
 
 let select = "Anna";
 
+let canvasHoehe = window.innerHeight * 0.8;
+let canvasHalbeBreite = canvasHoehe / 2;
+
 var grid_unit = 50;
 
 let col = 14
@@ -75,8 +78,10 @@ function preload() {
 //Alles was nur einmal, beim ersten Laden der Seite ausgeführt werden soll
 function setup() {
     //Canvas erstellen und einmitten abhängig von der window-Grösse; müsste noch automatischen Refresh bei canvasResized programmieren
-    var coordinate_canvas = createCanvas(700, 700);
-    coordinate_canvas.position(windowWidth / 2 - 350, windowHeight / 1.7 - 350);
+    //var coordinate_canvas = createCanvas(700, 700);
+
+    var coordinate_canvas = createCanvas(canvasHoehe, canvasHoehe);
+    coordinate_canvas.position(windowWidth / 2 - canvasHalbeBreite, windowHeight / 2 - canvasHalbeBreite);
 
     cell_size = width / col
 
