@@ -16,7 +16,7 @@
 body {
     margin: none;
     padding-left: 5%;
-    padding-right: 12.5%;
+    padding-right: 10%;
     padding-top: 0px;
     font-family: Regular_Lt;
     font-weight: 400;
@@ -29,19 +29,21 @@ h1 {
     font-family: Italic_30_Lt;
     display: inline-block;
     color: #893c6f;
+    font-size: 3vw;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2.5vw;
 }
 
 h3 {
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 500;
+    font-size: 1.7vw;
 }
 
 h4 {
-    font-size: 1.2rem;
+    font-size: 1.3vw;
 }
 
 p {
@@ -49,19 +51,20 @@ p {
     hyphens: auto;
     line-height: 125%;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.3vw;
     font-weight: 300;
 }
 
 ul {
     line-height: 180%;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.3vw;
     font-weight: 300;
 }
 
 html {
     scroll-behavior: smooth;
+    scroll-snap-align: center;
 }
 
 .container {
@@ -74,6 +77,10 @@ html {
     padding-bottom: 0;
 }
 
+.title {
+    width: 30%;
+}
+
 .nav {
     padding-top: 2%;
     position: fixed;
@@ -81,25 +88,41 @@ html {
 
 .content {
     width: 70%;
+    overflow-x: hidden;
+}
+
+.menu {
+    width: 70%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 100%;
 }
 
 a {
     color: #893c6f;
-    font-size: 1.2 rem;
+    font-size: 1.3vw;
     font-weight: 500;
     text-decoration: none;
-    padding-left: 5%;
     padding-top: 2%;
-    font-size: 1.4rem;
+    font-size: 1.5vw;
 }
 
 #nav_big {
-    font-size: 1.4rem;
+    font-size: 1.5vw;
     font-family: Italic_30_Lt;
 }
 
 #nav_small {
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 300;
 }
@@ -109,7 +132,7 @@ a {
 }
 
 #anfassen_main {
-    font-size: 2rem;
+    font-size: 3vw;
 }
 
 #anfassen_main:hover {
@@ -117,7 +140,7 @@ a {
 }
 
 #erfassen_main {
-    font-size: 2rem;
+    font-size: 3vw;
 }
 
 #erfassen_main:hover {
@@ -132,7 +155,6 @@ a {
 a.main_title {
     text-decoration: none;
     color: #893c6f;
-    font-size: 3rem;
 }
 
 a.main_title:hover {
@@ -154,70 +176,8 @@ hr {
     margin-bottom: 0px;
 }
 
-.header {
-    display: flex;
-    position: sticky;
-    top: 0;
-    background-color: white;
-    width: 100vw;
-}
-
-
-/* .header_links {
-    padding-left: 2%;
-} */
-
-.img_coordinates_container {
-    display: flex;
-}
-
-.img_coordinates {
-    padding-right: 3rem;
-}
-
-.img_linkeHand_container {
-    display: flex;
-}
-
-.img_linkeHand {
-    width: 47%;
-    height: auto;
-    padding-right: 3rem;
-    padding-bottom: 3rem;
-}
-
-.img_rechteHand_container {
-    display: flex;
-}
-
-.img_rechteHand {
-    width: 47%;
-    height: auto;
-    padding-right: 3rem;
-}
-
-.img_haut_container {
-    display: flex;
-}
-
-.img_patterns_container {
+.img_container {
     display: flex;
     justify-content: space-between;
     padding-bottom: 15px;
-}
-
-.img_haut {
-    padding-right: 3rem;
-}
-
-.bildgruppe {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.entwurf {
-    width: 400px;
-    height: auto;
-    padding: 20px;
 }
