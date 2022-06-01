@@ -12,6 +12,8 @@ let counter = 0;
 
 let patterns = new Array();
 
+
+
 // This function loads resources that will be used later.
 function preload() {
     let url_test = "/assets/json/tracking.json";
@@ -88,7 +90,7 @@ function setup() {
     frameRate(8);
     //noLoop();
 
-    background('#20213d');
+    background('#131423');
 
 }
 
