@@ -81,6 +81,7 @@ ul {
 
 .title {
     width: 30%;
+    line-height: 300%;
 }
 
 .nav {
@@ -97,7 +98,7 @@ ul {
 
 .menu {
     width: 70%;
-    padding-top: 30px;
+    padding-top: 50px;
     display: flex;
     justify-content: space-between;
     background-color: white;
@@ -105,7 +106,8 @@ ul {
 
 .header {
     display: flex;
-    position: static;
+    position: sticky;
+    top: 0;
     background-color: white;
     width: 100%;
 }
@@ -117,6 +119,58 @@ a {
     text-decoration: none;
     /* padding-top: 2%; */
     font-size: 1.5vw;
+}
+
+#Visualisierung {
+    scroll-margin-block-start: 180px;
+}
+
+#Datenerfassung {
+    scroll-margin-block-start: 180px;
+}
+
+#Tracking {
+    scroll-margin-block-start: 180px;
+}
+
+#Gesichts-Koordinatensystem {
+    scroll-margin-block-start: 180px;
+}
+
+#Hand {
+    scroll-margin-block-start: 180px;
+}
+
+#Digitale-Visualisierung {
+    scroll-margin-block-start: 180px;
+}
+
+#Analoge-Visualisierung {
+    scroll-margin-block-start: 180px;
+}
+
+#Auswertung {
+    scroll-margin-block-start: 180px;
+}
+
+#Grid {
+    scroll-margin-block-start: 180px;
+}
+
+#Konzeptentwicklung {
+    scroll-margin-block-start: 180px;
+}
+
+#Patterns {
+    scroll-margin-block-start: 180px;
+}
+
+#Gestaltungsprozess {
+    scroll-margin-block-start: 180px;
+}
+
+#Projektbeschreibung {
+    scroll-margin-block-start: 180px;
 }
 
 #nav_big {

@@ -90,7 +90,7 @@ function setup() {
 
     angleMode(DEGREES);
 
-    frameRate(8);
+    frameRate(4);
     //noLoop();
 
     background('#131423');
