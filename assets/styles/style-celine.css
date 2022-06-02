@@ -1,0 +1,190 @@
+    @font-face {
+        font-family: 'Retalic_30_Lt';
+        src: url('../fonts/GT-Planar-Retalic-30-Light-Trial.woff2') format('woff2');
+    }
+    
+    @font-face {
+        font-family: 'Italic_30_Lt';
+        src: url('../fonts/GT-Planar-Italic-30-Light-Trial.woff2') format('woff2');
+    }
+    
+    @font-face {
+        font-family: 'Regular_Lt';
+        src: url('../fonts/GT-Planar-Light-Trial.woff2') format('woff2');
+    }
+    
+    body {
+        margin: 0px;
+        font-family: Regular_Lt;
+        font-weight: 400;
+        font-style: normal;
+        background-color: #131423;
+        color: #050d3c;
+        height: 100vh;
+        width: 100%;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    .container {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        justify-content: space-between;
+        vertical-align: center;
+    }
+    
+    .item {
+        justify-content: space-between;
+        width: 30%;
+        text-align: center;
+        height: auto;
+    }
+    
+    h1 {
+        font-family: Italic_30_Lt;
+        color: #893c6f;
+    }
+    
+    h2 {
+        font-family: Italic_30_Lt;
+        color: #893c6f;
+    }
+    
+    p {
+        color: #84416e;
+        position: absolute;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 1.5vw;
+        font-weight: 300;
+    }
+    
+    .info {
+        width: 60%;
+        position: relative;
+        top: 30%;
+        left: 20%;
+    }
+    
+    .header {
+        display: flex;
+        /* position: sticky; */
+        background-color: #131423;
+        width: 100vw;
+        top: 200;
+    }
+    
+    .scrolltitle {
+        vertical-align: center;
+        position: relative;
+        bottom: 20px;
+    }
+    /* styling für den pfeil button und die sections */
+    
+    section {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    #section01 a {
+        padding-top: 60px;
+        /* width: 100vw;
+    height: 100vh; */
+    }
+    
+    #section01 a span {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 24px;
+        height: 24px;
+        margin-bottom: 36px;
+        margin-left: -12px;
+        border-left: 1px solid #84416e;
+        border-bottom: 1px solid #84416e;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        box-sizing: border-box;
+    }
+    
+    #section01 a span:hover {
+        border-left: 2px solid #84416e;
+        border-bottom: 2px solid #84416e;
+    }
+    
+    #section02 a {
+        top: 103%;
+        /* width: 100vw;
+    height: 100vh; */
+    }
+    
+    #section02 header {
+        top: 1550;
+    }
+    
+    #section02 a {
+        padding-top: 60px;
+        /* width: 100vw;
+    height: 100vh; */
+    }
+    
+    #section02 a span {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 24px;
+        height: 24px;
+        margin-bottom: 36px;
+        margin-left: -12px;
+        border-left: 1px solid #84416e;
+        border-bottom: 1px solid #84416e;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        box-sizing: border-box;
+    }
+    
+    #section03 a {
+        padding-top: 60px;
+        /* width: 100vw;
+    height: 100vh; */
+    }
+    
+    #section03 a span {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 24px;
+        height: 24px;
+        margin-bottom: 36px;
+        margin-left: -12px;
+        border-left: 1px solid #84416e;
+        border-bottom: 1px solid #84416e;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        box-sizing: border-box;
+    }
+    
+    #section04 a {
+        padding-top: 60px;
+        /* width: 100vw;
+    height: 100vh; */
+    }
+    
+    #section04 a span {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 24px;
+        height: 24px;
+        margin-bottom: 36px;
+        margin-left: -12px;
+        border-left: 1px solid #84416e;
+        border-bottom: 1px solid #84416e;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        box-sizing: border-box;
+    }

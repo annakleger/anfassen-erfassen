@@ -36,6 +36,20 @@ img {
     left: 6vw;
 }
 
+.container {
+    top: 20%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.item {
+    vertical-align: center;
+    text-align: center;
+    justify-content: center;
+}
+
 h1 {
     font-family: Italic_30_Lt;
     display: inline-block;
