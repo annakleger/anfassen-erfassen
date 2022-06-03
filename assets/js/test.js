@@ -1,6 +1,6 @@
 let test_data;
 
-let select = "Anna";
+let select = "larissa";
 
 let canvasHoehe = window.innerHeight * 0.8;
 let canvasHalbeBreite = canvasHoehe / 2;
@@ -123,7 +123,7 @@ function get_positions_face(face_data) {
 function get_hand(hand_data) {
 
     let hand = hand_data["hand"]
-        /* if (typeof hand != String) {
+        /* if (typeof hand != String){
              return hand
          }*/
     return hand.split(", ")
@@ -133,19 +133,27 @@ function get_hand(hand_data) {
 function draw() {
 
     //grid()
-    //for (let i = 0; i < counter; i++) {
-    if (test_data[counter].name == select) {
+
+    //mit selector
+    // for (let i = 0; i < counter; i++)
+    //     if (test_data[counter].name == select) {
+    //         show_gesture(counter)
+    //     }
+
+    //ohne selector
+    for (let i = 0; i < counter; i++) {
         show_gesture(counter)
     }
 
-    //}
 
     if (counter < test_data.length) {
         counter++;
     } else {
         noLoop();
     }
-    stroke(255, 0, 0);
+
+
+
 
 
 }
