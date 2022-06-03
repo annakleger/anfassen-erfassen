@@ -27,13 +27,18 @@
     html {
         scroll-behavior: smooth;
     }
+    /* positionierung von Inhalt auf der Seite  */
+    
+    .container-profile {
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        vertical-align: center;
+    }
     
     .container {
-        margin-left: 5%;
-        margin-right: 5%;
-        padding: 0px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         vertical-align: center;
     }
     
@@ -43,6 +48,7 @@
         text-align: center;
         height: auto;
     }
+    /* Überschriften und Text */
     
     h1 {
         font-family: Italic_30_Lt;
@@ -68,6 +74,7 @@
         top: 30%;
         left: 20%;
     }
+    /* Navigation  */
     
     .header {
         display: flex;
@@ -76,13 +83,19 @@
         width: 100vw;
         top: 200;
     }
-    
-    .scrolltitle {
-        vertical-align: center;
-        position: relative;
-        bottom: 20px;
-    }
     /* styling für den pfeil button und die sections */
+    
+    h2.arrow_text {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 1.2rem;
+        font-weight: 100;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 5%;
+        width: 100%;
+        text-align: center;
+        opacity: 70%;
+    }
     
     section {
         position: relative;
