@@ -2,10 +2,12 @@ let test_data;
 
 let select = "larissa";
 
-let canvasHoehe = window.innerHeight * 0.8;
-let canvasHalbeBreite = canvasHoehe / 2;
+let vergroessern = 1;
 
-var grid_unit = 50;
+let canvasHoehe = window.innerHeight * 0.8 * vergroessern;
+let canvasHalbeBreite = canvasHoehe / 2 * vergroessern;
+
+var grid_unit = 50 * vergroessern;
 
 let col = 14
 let row = 14
@@ -135,15 +137,15 @@ function draw() {
     //grid()
 
     //mit selector
-    // for (let i = 0; i < counter; i++)
-    //     if (test_data[counter].name == select) {
-    //         show_gesture(counter)
-    //     }
+    for (let i = 0; i < counter; i++)
+        if (test_data[counter].name == select) {
+            show_gesture(counter)
+        }
 
-    //ohne selector
-    for (let i = 0; i < counter; i++) {
-        show_gesture(counter)
-    }
+        //ohne selector
+        // for (let i = 0; i < counter; i++) {
+        //     show_gesture(counter)
+        // }
 
 
     if (counter < test_data.length) {
