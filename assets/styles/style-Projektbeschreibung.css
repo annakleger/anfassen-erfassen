@@ -255,6 +255,7 @@
                 height: 10px;
                 border-radius: 25px;
                 margin-left: 0;
+                cursor: pointer;
             }
             
             .reason1:hover {
@@ -272,6 +273,7 @@
                 height: 10px;
                 border-radius: 25px;
                 margin-left: 15%;
+                cursor: pointer;
             }
             
             .reason2:hover {
@@ -289,6 +291,7 @@
                 height: 10px;
                 border-radius: 25px;
                 margin-left: 15%;
+                cursor: pointer;
             }
             
             .reason3:hover {
@@ -349,7 +352,7 @@
                 justify-content: center;
                 align-items: center;
                 margin-left: 15%;
-                margin-top: 99%;
+                margin-top: 213.7%;
             }
             
             .rawdata:hover {
@@ -364,6 +367,7 @@
                 border-radius: 25px;
                 opacity: 20%;
                 margin-left: 20px;
+                cursor: pointer;
             }
             
             .j1:hover {
@@ -386,6 +390,7 @@
                 opacity: 20%;
                 margin-top: 15%;
                 margin-left: 20px;
+                cursor: pointer;
             }
             
             .j2:hover {
@@ -408,6 +413,7 @@
                 opacity: 20%;
                 margin-top: 15%;
                 margin-left: 20px;
+                cursor: pointer;
             }
             
             .j3:hover {
@@ -430,9 +436,125 @@
                 opacity: 20%;
                 margin-top: 4%;
                 margin-left: 20px;
+                cursor: pointer;
             }
             
             .j4:hover {
+                text-shadow: 0 0 0px rgba(0, 0, 0, 1);
+                transition: 0s ease-in-out;
+                animation-duration: 0s;
+                transform: translateX(0%) translateY(0%);
+                animation: jucken 1s ease-in forwards;
+                opacity: 100%;
+                background-color: rgb(255, 78, 193);
+                color: #050d3c;
+            }
+            
+            .j5 {
+                margin-bottom: 150px;
+                background-color: rgb(255, 78, 193);
+                width: 500px;
+                height: 10px;
+                border-radius: 25px;
+                opacity: 20%;
+                margin-top: 15%;
+                margin-left: 20px;
+                cursor: pointer;
+            }
+            
+            .j5:hover {
+                text-shadow: 0 0 0px rgba(0, 0, 0, 1);
+                transition: 0s ease-in-out;
+                animation-duration: 0s;
+                transform: translateX(0%) translateY(0%);
+                animation: jucken 1s ease-in forwards;
+                opacity: 100%;
+                background-color: rgb(255, 78, 193);
+                color: #050d3c;
+            }
+            
+            .j6 {
+                margin-bottom: 150px;
+                background-color: rgb(255, 78, 193);
+                width: 500px;
+                height: 10px;
+                border-radius: 25px;
+                opacity: 20%;
+                margin-top: 4%;
+                margin-left: 20px;
+                cursor: pointer;
+            }
+            
+            .j6:hover {
+                text-shadow: 0 0 0px rgba(0, 0, 0, 1);
+                transition: 0s ease-in-out;
+                animation-duration: 0s;
+                transform: translateX(0%) translateY(0%);
+                animation: jucken 1s ease-in forwards;
+                opacity: 100%;
+                background-color: rgb(255, 78, 193);
+                color: #050d3c;
+            }
+            
+            .j7 {
+                margin-bottom: 150px;
+                background-color: rgb(255, 78, 193);
+                width: 500px;
+                height: 10px;
+                border-radius: 25px;
+                opacity: 20%;
+                margin-top: 15%;
+                margin-left: 20px;
+                cursor: pointer;
+            }
+            
+            .j7:hover {
+                text-shadow: 0 0 0px rgba(0, 0, 0, 1);
+                transition: 0s ease-in-out;
+                animation-duration: 0s;
+                transform: translateX(0%) translateY(0%);
+                animation: jucken 1s ease-in forwards;
+                opacity: 100%;
+                background-color: rgb(255, 78, 193);
+                color: #050d3c;
+            }
+            
+            .j8 {
+                margin-bottom: 150px;
+                background-color: rgb(255, 78, 193);
+                width: 500px;
+                height: 10px;
+                border-radius: 25px;
+                opacity: 20%;
+                margin-top: 15%;
+                margin-left: 20px;
+                cursor: pointer;
+            }
+            
+            .j8:hover {
+                text-shadow: 0 0 0px rgba(0, 0, 0, 1);
+                transition: 0s ease-in-out;
+                animation-duration: 0s;
+                transform: translateX(0%) translateY(0%);
+                animation: jucken 1s ease-in forwards;
+                opacity: 100%;
+                background-color: rgb(255, 78, 193);
+                color: #050d3c;
+            }
+            
+            .j9 {
+                margin-bottom: 150px;
+                background-color: rgb(255, 78, 193);
+                width: 500px;
+                height: 10px;
+                border-radius: 25px;
+                opacity: 20%;
+                margin-top: 15%;
+                margin-left: 20px;
+                cursor: pointer;
+            }
+            
+            .j9:hover {
                 text-shadow: 0 0 0px rgba(0, 0, 0, 1);
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
@@ -451,6 +573,7 @@
                 opacity: 20%;
                 margin-top: 4%;
                 margin-left: 20px;
+                cursor: pointer;
             }
             
             .a1:hover {
@@ -470,6 +593,7 @@
                 opacity: 20%;
                 margin-top: 15%;
                 margin-left: 20px;
+                cursor: pointer;
             }
             
             .a2:hover {
@@ -489,6 +613,7 @@
                 opacity: 20%;
                 margin-top: 15%;
                 margin-left: 20px;
+                cursor: pointer;
             }
             
             .a3:hover {
@@ -508,6 +633,7 @@
                 opacity: 20%;
                 margin-top: 15%;
                 margin-left: 20px;
+                cursor: pointer;
             }
             
             .a4:hover {
@@ -525,11 +651,152 @@
                 height: 10px;
                 border-radius: 25px;
                 opacity: 20%;
-                margin-top: 6%;
+                margin-top: 4%;
                 margin-left: 20px;
+                cursor: pointer;
             }
             
             .a5:hover {
+                opacity: 100%;
+                text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+                animation: aufstützen 3s ease-in-out;
+                animation-duration: 3s;
+                transition: 0s;
+                background-color: rgb(95, 37, 255);
+            }
+            
+            .a6 {
+                background-color: rgb(95, 37, 255);
+                width: 500px;
+                height: 10px;
+                border-radius: 25px;
+                opacity: 20%;
+                margin-top: 15%;
+                margin-left: 20px;
+                cursor: pointer;
+            }
+            
+            .a6:hover {
+                opacity: 100%;
+                text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+                animation: aufstützen 3s ease-in-out;
+                animation-duration: 3s;
+                transition: 0s;
+                background-color: rgb(95, 37, 255);
+            }
+            
+            .a7 {
+                background-color: rgb(95, 37, 255);
+                width: 500px;
+                height: 10px;
+                border-radius: 25px;
+                opacity: 20%;
+                margin-top: 15%;
+                margin-left: 20px;
+                cursor: pointer;
+            }
+            
+            .a7:hover {
+                opacity: 100%;
+                text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+                animation: aufstützen 3s ease-in-out;
+                animation-duration: 3s;
+                transition: 0s;
+                background-color: rgb(95, 37, 255);
+            }
+            
+            .a8 {
+                background-color: rgb(95, 37, 255);
+                width: 500px;
+                height: 10px;
+                border-radius: 25px;
+                opacity: 20%;
+                margin-top: 15%;
+                margin-left: 20px;
+                cursor: pointer;
+            }
+            
+            .a8:hover {
+                opacity: 100%;
+                text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+                animation: aufstützen 3s ease-in-out;
+                animation-duration: 3s;
+                transition: 0s;
+                background-color: rgb(95, 37, 255);
+            }
+            
+            .a9 {
+                background-color: rgb(95, 37, 255);
+                width: 500px;
+                height: 10px;
+                border-radius: 25px;
+                opacity: 20%;
+                margin-top: 15%;
+                margin-left: 20px;
+                cursor: pointer;
+            }
+            
+            .a9:hover {
+                opacity: 100%;
+                text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+                animation: aufstützen 3s ease-in-out;
+                animation-duration: 3s;
+                transition: 0s;
+                background-color: rgb(95, 37, 255);
+            }
+            
+            .a10 {
+                background-color: rgb(95, 37, 255);
+                width: 500px;
+                height: 10px;
+                border-radius: 25px;
+                opacity: 20%;
+                margin-top: 15%;
+                margin-left: 20px;
+                cursor: pointer;
+            }
+            
+            .a10:hover {
+                opacity: 100%;
+                text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+                animation: aufstützen 3s ease-in-out;
+                animation-duration: 3s;
+                transition: 0s;
+                background-color: rgb(95, 37, 255);
+            }
+            
+            .a11 {
+                background-color: rgb(95, 37, 255);
+                width: 500px;
+                height: 10px;
+                border-radius: 25px;
+                opacity: 20%;
+                margin-top: 4%;
+                margin-left: 20px;
+                cursor: pointer;
+            }
+            
+            .a11:hover {
+                opacity: 100%;
+                text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+                animation: aufstützen 3s ease-in-out;
+                animation-duration: 3s;
+                transition: 0s;
+                background-color: rgb(95, 37, 255);
+            }
+            
+            .a12 {
+                background-color: rgb(95, 37, 255);
+                width: 500px;
+                height: 10px;
+                border-radius: 25px;
+                opacity: 20%;
+                margin-top: 4%;
+                margin-left: 20px;
+                cursor: pointer;
+            }
+            
+            .a12:hover {
                 opacity: 100%;
                 text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
                 animation: aufstützen 3s ease-in-out;
@@ -546,6 +813,7 @@
                 opacity: 50%;
                 margin-top: 4%;
                 margin-left: 20px;
+                cursor: pointer;
             }
             
             .g1:hover {
@@ -577,6 +845,8 @@
                 border-radius: 25px;
                 opacity: 50%;
                 margin-top: 15%;
+                cursor: pointer;
+                margin-left: 20px;
             }
             
             .g2:hover {
@@ -609,6 +879,8 @@
                 border-radius: 25px;
                 opacity: 50%;
                 margin-top: 15%;
+                cursor: pointer;
+                margin-left: 20px;
             }
             
             .g3:hover {
@@ -629,6 +901,74 @@
             }
             
             .g3text:hover {
+                text-shadow: 0 0 5px rgba(0, 0, 0, 0.0);
+                opacity: 100%;
+                color: #050d3c;
+            }
+            
+            .g4 {
+                background-color: rgb(0, 215, 140);
+                width: 500px;
+                height: 10px;
+                border-radius: 25px;
+                opacity: 50%;
+                margin-top: 15%;
+                cursor: pointer;
+                margin-left: 20px;
+            }
+            
+            .g4:hover {
+                opacity: 100%;
+                color: rgb(0, 215, 140);
+            }
+            
+            .g4text {
+                display: flex;
+                position: absolute;
+                justify-content: center;
+                align-items: center;
+                opacity: 35%;
+                z-index: 50;
+                color: transparent;
+                text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+                margin-right: 60px;
+            }
+            
+            .g4text:hover {
+                text-shadow: 0 0 5px rgba(0, 0, 0, 0.0);
+                opacity: 100%;
+                color: #050d3c;
+            }
+            
+            .g5 {
+                background-color: rgb(0, 215, 140);
+                width: 500px;
+                height: 10px;
+                border-radius: 25px;
+                opacity: 50%;
+                margin-top: 4%;
+                cursor: pointer;
+                margin-left: 20px;
+            }
+            
+            .g5:hover {
+                opacity: 100%;
+                color: rgb(0, 215, 140);
+            }
+            
+            .g5text {
+                display: flex;
+                position: absolute;
+                justify-content: center;
+                align-items: center;
+                opacity: 35%;
+                z-index: 50;
+                color: transparent;
+                text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+                margin-right: 60px;
+            }
+            
+            .g5text:hover {
                 text-shadow: 0 0 5px rgba(0, 0, 0, 0.0);
                 opacity: 100%;
                 color: #050d3c;
