@@ -274,7 +274,7 @@
             justify-content: center;
             align-items: center;
             margin-left: 15%;
-            margin-top: 22%;
+            margin-top: 35%;
         }
         
         .rawdata:hover {
@@ -291,6 +291,25 @@
         }
         
         .j1:hover {
+            text-shadow: 0 0 0px rgba(0, 0, 0, 1);
+            transition: 0s ease-in-out;
+            animation-duration: 0s;
+            transform: translateX(0%) translateY(0%);
+            animation: jucken 1s ease-in forwards;
+            opacity: 100%;
+        }
+        
+        .j2 {
+            margin-bottom: 150px;
+            background-color: rgb(255, 78, 78);
+            width: 500px;
+            height: 10px;
+            border-radius: 25px;
+            opacity: 50%;
+            margin-top: 10%;
+        }
+        
+        .j2:hover {
             text-shadow: 0 0 0px rgba(0, 0, 0, 1);
             transition: 0s ease-in-out;
             animation-duration: 0s;
@@ -367,6 +386,51 @@
             transition: 0.5s;
         }
         
+        .g1 {
+            background-color: rgb(0, 215, 140);
+            width: 500px;
+            height: 10px;
+            border-radius: 25px;
+            opacity: 50%;
+            margin-top: 0%;
+        }
+        
+        .g1:hover {
+            opacity: 100%;
+        }
+        
+        .gewohnheitsbox {
+            position: relative;
+            width: 500px;
+            height: 140px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            border-radius: 20px;
+            opacity: 0%;
+        }
+        
+        .gewohnheitsbox:hover {
+            opacity: 100%;
+        }
+        
+        .gewohnheitsbox:before {
+            content: '';
+            position: absolute;
+            width: 500px;
+            height: 140px;
+            background: linear-gradient(rgb(0, 215, 140), rgb(127, 48, 255));
+            animation: gewohnheit 4s linear infinite;
+        }
+        
+        .gewohnheitsbox:after {
+            content: '';
+            position: absolute;
+            background: rgb(0, 215, 140);
+            inset: 70px;
+        }
+        
         @keyframes jucken {
             0% {
                 transform: translateX(0%);
@@ -406,5 +470,14 @@
             }
             100% {
                 text-shadow: -2px 0px 0 rgba(43, 0, 255, 0.75), 1px 2px 0 rgba(39, 255, 1, 0.75), -1px -2px 0 rgba(255, 0, 144, 0.75);
+            }
+        }
+        
+        @keyframes gewohnheit {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
             }
         }
