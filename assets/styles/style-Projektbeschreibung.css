@@ -287,7 +287,7 @@
             width: 500px;
             height: 10px;
             border-radius: 25px;
-            opacity: 50%;
+            opacity: 20%;
         }
         
         .j1:hover {
@@ -297,6 +297,8 @@
             transform: translateX(0%) translateY(0%);
             animation: jucken 1s ease-in forwards;
             opacity: 100%;
+            background-color: transparent;
+            color: rgb(255, 78, 78);
         }
         
         .j2 {
@@ -305,7 +307,7 @@
             width: 500px;
             height: 10px;
             border-radius: 25px;
-            opacity: 50%;
+            opacity: 20%;
             margin-top: 10%;
         }
         
@@ -316,6 +318,8 @@
             transform: translateX(0%) translateY(0%);
             animation: jucken 1s ease-in forwards;
             opacity: 100%;
+            background-color: transparent;
+            color: rgb(255, 78, 78);
         }
         
         .a1 {
@@ -323,7 +327,7 @@
             width: 500px;
             height: 10px;
             border-radius: 25px;
-            opacity: 50%;
+            opacity: 20%;
             margin-top: -1%;
         }
         
@@ -332,7 +336,8 @@
             text-shadow: 0px 0px 0 rgba(43, 0, 255, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
             animation: aufstützen 3s ease-in-out;
             animation-duration: 3s;
-            transition: 0.5s;
+            transition: 0s;
+            background-color: transparent;
         }
         
         .a2 {
@@ -340,7 +345,7 @@
             width: 500px;
             height: 10px;
             border-radius: 25px;
-            opacity: 50%;
+            opacity: 20%;
             margin-top: 10%;
         }
         
@@ -349,7 +354,8 @@
             text-shadow: 0px 0px 0 rgba(43, 0, 255, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
             animation: aufstützen 3s ease-in-out;
             animation-duration: 3s;
-            transition: 0.5s;
+            transition: 0s;
+            background-color: transparent;
         }
         
         .a3 {
@@ -357,7 +363,7 @@
             width: 500px;
             height: 10px;
             border-radius: 25px;
-            opacity: 50%;
+            opacity: 20%;
             margin-top: 10%;
         }
         
@@ -366,7 +372,8 @@
             text-shadow: 0px 0px 0 rgba(43, 0, 255, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
             animation: aufstützen 3s ease-in-out;
             animation-duration: 3s;
-            transition: 0.5s;
+            transition: 0s;
+            background-color: transparent;
         }
         
         .a4 {
@@ -374,7 +381,7 @@
             width: 500px;
             height: 10px;
             border-radius: 25px;
-            opacity: 50%;
+            opacity: 20%;
             margin-top: 10%;
         }
         
@@ -383,7 +390,8 @@
             text-shadow: 0px 0px 0 rgba(43, 0, 255, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
             animation: aufstützen 3s ease-in-out;
             animation-duration: 3s;
-            transition: 0.5s;
+            transition: 0s;
+            background-color: transparent;
         }
         
         .g1 {
@@ -393,22 +401,11 @@
             border-radius: 25px;
             opacity: 50%;
             margin-top: 0%;
+            text-align: start;
         }
         
         .g1:hover {
             opacity: 100%;
-        }
-        
-        .gtext {
-            display: flex;
-            position: absolute;
-            justify-content: center;
-            align-items: center;
-            background-color: rgb(0, 215, 140);
-            width: 500px;
-            height: 10px;
-            border-radius: 25px;
-            z-index: 10;
         }
         
         .gewohnheitsbox {
@@ -436,7 +433,6 @@
             height: 140px;
             background: linear-gradient(rgb(0, 215, 140), rgb(255, 248, 48));
             animation: gewohnheit 4s linear infinite;
-            overflow: hidden;
         }
         
         .gewohnheitsbox::after {
@@ -444,6 +440,11 @@
             position: absolute;
             inset: 4px;
             background: rgba(255, 255, 255, 1);
+        }
+        
+        .gtext {
+            opacity: 100%;
+            z-index: 10;
         }
         
         @keyframes jucken {
