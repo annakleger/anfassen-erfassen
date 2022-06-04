@@ -399,6 +399,18 @@
             opacity: 100%;
         }
         
+        .gtext {
+            display: flex;
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(0, 215, 140);
+            width: 500px;
+            height: 10px;
+            border-radius: 25px;
+            z-index: 10;
+        }
+        
         .gewohnheitsbox {
             position: relative;
             width: 500px;
@@ -407,28 +419,31 @@
             justify-content: center;
             align-items: center;
             overflow: hidden;
-            border-radius: 20px;
+            border-radius: 0px;
+            background: rgba(255, 255, 255, 1);
             opacity: 0%;
+            overflow: hidden;
         }
         
         .gewohnheitsbox:hover {
             opacity: 100%;
         }
         
-        .gewohnheitsbox:before {
+        .gewohnheitsbox:hover::before {
             content: '';
             position: absolute;
-            width: 500px;
+            width: 600px;
             height: 140px;
-            background: linear-gradient(rgb(0, 215, 140), rgb(127, 48, 255));
+            background: linear-gradient(rgb(0, 215, 140), rgb(255, 248, 48));
             animation: gewohnheit 4s linear infinite;
+            overflow: hidden;
         }
         
-        .gewohnheitsbox:after {
+        .gewohnheitsbox::after {
             content: '';
             position: absolute;
-            background: rgb(0, 215, 140);
-            inset: 70px;
+            inset: 4px;
+            background: rgba(255, 255, 255, 1);
         }
         
         @keyframes jucken {
@@ -477,7 +492,39 @@
             0% {
                 transform: rotate(0deg);
             }
-            100% {
+            10% {
+                transform: rotate(90deg);
+            }
+            20% {
+                transform: rotate(180deg);
+            }
+            30% {
+                transform: rotate(270deg);
+            }
+            40% {
                 transform: rotate(360deg);
             }
+            50% {
+                transform: rotate(270deg);
+            }
+            60% {
+                transform: rotate(180deg);
+            }
+            70% {
+                transform: rotate(90deg);
+            }
+            80% {
+                transform: rotate(0);
+            }
+        }
+        /* Tracking-Videos */
+        
+        .video_container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .video_item {
+            padding-bottom: 1%;
+            padding-right: 1%;
         }
