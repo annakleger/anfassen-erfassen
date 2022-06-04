@@ -107,8 +107,6 @@ h2.arrow_text:hover {
     opacity: 100%;
 }
 
-<<<<<<< HEAD
-=======
 html {
     scroll-behavior: smooth;
 }
@@ -120,22 +118,21 @@ a {
     text-decoration: none;
     padding-left: 5%;
     padding-top: 2%;
-    font-size: 1.4rem;
+    font-size: 1.5vw;
 }
 
 p {
     color: #84416e;
     position: absolute;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.8rem;
-    line-height: 2.16rem;
+    font-size: 1.5vw;
+    line-height: auto;
     font-weight: 300;
     width: 50%;
     top: 36%;
     left: 25%;
 }
 
->>>>>>> c2ba48863fcce3aeffb398d306381537c536bc2e
 .container {
     margin-left: -4%;
     margin-top: 8%;
