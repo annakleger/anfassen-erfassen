@@ -805,6 +805,66 @@
                 background-color: rgb(95, 37, 255);
             }
             
+            .a13 {
+                background-color: rgb(95, 37, 255);
+                width: 500px;
+                height: 10px;
+                border-radius: 25px;
+                opacity: 20%;
+                margin-top: 4%;
+                margin-left: 20px;
+                cursor: pointer;
+            }
+            
+            .a13:hover {
+                opacity: 100%;
+                text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+                animation: aufstützen 3s ease-in-out;
+                animation-duration: 3s;
+                transition: 0s;
+                background-color: rgb(95, 37, 255);
+            }
+            
+            .a14 {
+                background-color: rgb(95, 37, 255);
+                width: 500px;
+                height: 10px;
+                border-radius: 25px;
+                opacity: 20%;
+                margin-top: 15%;
+                margin-left: 20px;
+                cursor: pointer;
+            }
+            
+            .a14:hover {
+                opacity: 100%;
+                text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+                animation: aufstützen 3s ease-in-out;
+                animation-duration: 3s;
+                transition: 0s;
+                background-color: rgb(95, 37, 255);
+            }
+            
+            .a15 {
+                background-color: rgb(95, 37, 255);
+                width: 500px;
+                height: 10px;
+                border-radius: 25px;
+                opacity: 20%;
+                margin-top: 15%;
+                margin-left: 20px;
+                cursor: pointer;
+            }
+            
+            .a15:hover {
+                opacity: 100%;
+                text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+                animation: aufstützen 3s ease-in-out;
+                animation-duration: 3s;
+                transition: 0s;
+                background-color: rgb(95, 37, 255);
+            }
+            
             .g1 {
                 background-color: rgb(0, 215, 140);
                 width: 500px;
