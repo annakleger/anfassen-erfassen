@@ -352,7 +352,7 @@
                 justify-content: center;
                 align-items: center;
                 margin-left: 15%;
-                margin-top: 213.7%;
+                margin-top: 241.4%;
             }
             
             .rawdata:hover {
@@ -375,7 +375,7 @@
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
                 transform: translateX(0%) translateY(0%);
-                animation: jucken 1s ease-in forwards;
+                animation: jucken 1s ease-in forwards infinite;
                 opacity: 100%;
                 background-color: rgb(255, 78, 193);
                 color: #050d3c;
@@ -411,7 +411,7 @@
                 height: 10px;
                 border-radius: 25px;
                 opacity: 20%;
-                margin-top: 15%;
+                margin-top: 12%;
                 margin-left: 20px;
                 cursor: pointer;
             }
@@ -503,7 +503,7 @@
                 height: 10px;
                 border-radius: 25px;
                 opacity: 20%;
-                margin-top: 15%;
+                margin-top: 12%;
                 margin-left: 20px;
                 cursor: pointer;
             }
@@ -526,7 +526,7 @@
                 height: 10px;
                 border-radius: 25px;
                 opacity: 20%;
-                margin-top: 15%;
+                margin-top: 10%;
                 margin-left: 20px;
                 cursor: pointer;
             }
@@ -651,7 +651,7 @@
                 height: 10px;
                 border-radius: 25px;
                 opacity: 20%;
-                margin-top: 4%;
+                margin-top: 5%;
                 margin-left: 20px;
                 cursor: pointer;
             }
@@ -671,7 +671,7 @@
                 height: 10px;
                 border-radius: 25px;
                 opacity: 20%;
-                margin-top: 15%;
+                margin-top: 12%;
                 margin-left: 20px;
                 cursor: pointer;
             }
@@ -865,13 +865,33 @@
                 background-color: rgb(95, 37, 255);
             }
             
+            .a16 {
+                background-color: rgb(95, 37, 255);
+                width: 500px;
+                height: 10px;
+                border-radius: 25px;
+                opacity: 20%;
+                margin-top: 15%;
+                margin-left: 20px;
+                cursor: pointer;
+            }
+            
+            .a16:hover {
+                opacity: 100%;
+                text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+                animation: aufstützen 3s ease-in-out;
+                animation-duration: 3s;
+                transition: 0s;
+                background-color: rgb(95, 37, 255);
+            }
+            
             .g1 {
                 background-color: rgb(0, 215, 140);
                 width: 500px;
                 height: 10px;
                 border-radius: 25px;
                 opacity: 50%;
-                margin-top: 4%;
+                margin-top: 8%;
                 margin-left: 20px;
                 cursor: pointer;
             }
@@ -904,7 +924,7 @@
                 height: 10px;
                 border-radius: 25px;
                 opacity: 50%;
-                margin-top: 15%;
+                margin-top: 20%;
                 cursor: pointer;
                 margin-left: 20px;
             }
@@ -938,7 +958,7 @@
                 height: 10px;
                 border-radius: 25px;
                 opacity: 50%;
-                margin-top: 15%;
+                margin-top: 16%;
                 cursor: pointer;
                 margin-left: 20px;
             }
@@ -967,12 +987,11 @@
             }
             
             .g4 {
-                background-color: rgb(0, 215, 140);
                 width: 500px;
                 height: 10px;
                 border-radius: 25px;
                 opacity: 50%;
-                margin-top: 15%;
+                margin-top: 19%;
                 cursor: pointer;
                 margin-left: 20px;
             }
@@ -1006,7 +1025,7 @@
                 height: 10px;
                 border-radius: 25px;
                 opacity: 50%;
-                margin-top: 4%;
+                margin-top: 6%;
                 cursor: pointer;
                 margin-left: 20px;
             }
@@ -1038,17 +1057,20 @@
                 0% {
                     transform: translateX(0%);
                 }
-                20% {
-                    transform: translateY(50%);
+                18% {
+                    transform: translateY(200%);
                 }
-                40% {
-                    transform: translateX(-50%);
+                36% {
+                    transform: translateX(-30%);
                 }
-                60% {
-                    transform: translateY(-50%);
+                54% {
+                    transform: translateY(-200%);
                 }
-                80% {
-                    transform: translateX(50%);
+                72% {
+                    transform: translateX(30%);
+                }
+                90% {
+                    transform: translateY(0%);
                 }
                 100% {
                     transform: translateX(0%);
@@ -1128,7 +1150,7 @@
                 content: '';
                 position: absolute;
                 width: 600px;
-                height: 140px;
+                height: 370px;
                 background: linear-gradient(rgb(125, 255, 209), rgb(187, 255, 151));
                 animation: gewohnheit 5s linear infinite;
             }
@@ -1145,10 +1167,21 @@
                 height: 10px;
                 border-radius: 25px;
                 opacity: 100%;
+                margin-top: -50px;
+                animation: stayingborder infinite;
             }
             
-            .gborder:hover {
-                opacity: 0%;
+            @keyframes stayingborder {
+                0% {
+                    background-color: rgb(0, 215, 140);
+                    height: 10px;
+                    opacity: 100%;
+                }
+                100% {
+                    background-color: rgb(0, 215, 140);
+                    height: 10px;
+                    opacity: 100%;
+                }
             }
             /* Tracking-Videos */
             
