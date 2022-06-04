@@ -130,6 +130,18 @@
                 font-size: 1.5vw;
             }
             
+            .profilname {
+                color: #84416e;
+                font-family: Helvetica, Arial, sans-serif;
+                font-size: 1.5vw;
+                font-weight: 300;
+            }
+            
+            span {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            
             #Visualisierung {
                 scroll-margin-block-start: 180px;
             }
@@ -155,10 +167,6 @@
             }
             
             #Analoge-Visualisierung {
-                scroll-margin-block-start: 180px;
-            }
-            
-            #Auswertung {
                 scroll-margin-block-start: 180px;
             }
             
