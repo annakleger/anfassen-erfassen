@@ -1,21 +1,32 @@
-.portrait {
-    width: 45%;
-    height: 45%;
-    background-color: blue
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Regular_Lt;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #131423;
+    color: #050d3c;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .content {
-    width: 45%;
-    height: 45%;
-    background-color: blueviolet;
+    width: 33%;
+    height: 33%;
+    /* background-color: blueviolet; */
     overflow: hidden;
+    margin-top: 5%;
 }
 
-.container {
-    width: 100%;
+.container-carousel {
+    width: 90%;
+    position: relative;
+    left: 5%;
     height: 100%;
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 .carousel {
@@ -26,9 +37,8 @@
     scroll-snap-type: x mandatory;
 }
 
-.carousel .item {
+.carousel .itemcarousel {
     flex: 0 0 100%;
-    background: red;
     height: 100%;
     display: grid;
     scroll-snap-align: start;
@@ -36,12 +46,3 @@
     font-size: 1rem;
     color: #fff;
 }
-
-.id {
-    scroll-padding-top: 120px;
-}
-
--webkit-overflow-scrolling: touch;
-scroll-snap-type: mandatory;
-scroll-snap-points-y: repeat(300px);
-scroll-snap-points-x: repeat(300px);
