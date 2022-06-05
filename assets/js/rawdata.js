@@ -28,7 +28,7 @@ function scoreaufstützen() {
         var id = setInterval(scoreborder, 36);
 
         function scoreborder() {
-            if (width >= 111) {
+            if (width >= 117) {
                 clearInterval(id);
                 i = 0;
             } else {
@@ -48,7 +48,7 @@ function scorejucken() {
         var id = setInterval(scoreborder, 36);
 
         function scoreborder() {
-            if (width >= 101) {
+            if (width >= 114) {
                 clearInterval(id);
                 i = 0;
             } else {
@@ -68,7 +68,7 @@ function scoregewohnheit() {
         var id = setInterval(scoreborder, 36);
 
         function scoreborder() {
-            if (width >= 56) {
+            if (width >= 61) {
                 clearInterval(id);
                 i = 0;
             } else {

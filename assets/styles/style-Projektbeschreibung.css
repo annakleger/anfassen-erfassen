@@ -373,7 +373,7 @@
                 justify-content: center;
                 align-items: center;
                 margin-left: 15%;
-                margin-top: 263%;
+                margin-top: 293.45%;
             }
             
             .rawdata:hover {
@@ -419,7 +419,7 @@
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
                 transform: translateX(0%) translateY(0%);
-                animation: jucken 1s ease-in forwards;
+                animation: jucken 1s ease-in forwards infinite;
                 opacity: 100%;
                 background-color: rgb(255, 78, 193);
                 color: #050d3c;
@@ -432,7 +432,7 @@
                 height: 10px;
                 border-radius: 25px;
                 opacity: 20%;
-                margin-top: 12%;
+                margin-top: 11%;
                 margin-left: 20px;
                 cursor: pointer;
             }
@@ -442,7 +442,7 @@
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
                 transform: translateX(0%) translateY(0%);
-                animation: jucken 1s ease-in forwards;
+                animation: jucken 1s ease-in forwards infinite;
                 opacity: 100%;
                 background-color: rgb(255, 78, 193);
                 color: #050d3c;
@@ -465,7 +465,7 @@
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
                 transform: translateX(0%) translateY(0%);
-                animation: jucken 1s ease-in forwards;
+                animation: jucken 1s ease-in forwards infinite;
                 opacity: 100%;
                 background-color: rgb(255, 78, 193);
                 color: #050d3c;
@@ -488,7 +488,7 @@
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
                 transform: translateX(0%) translateY(0%);
-                animation: jucken 1s ease-in forwards;
+                animation: jucken 1s ease-in forwards infinite;
                 opacity: 100%;
                 background-color: rgb(255, 78, 193);
                 color: #050d3c;
@@ -511,7 +511,7 @@
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
                 transform: translateX(0%) translateY(0%);
-                animation: jucken 1s ease-in forwards;
+                animation: jucken 1s ease-in forwards infinite;
                 opacity: 100%;
                 background-color: rgb(255, 78, 193);
                 color: #050d3c;
@@ -524,7 +524,7 @@
                 height: 10px;
                 border-radius: 25px;
                 opacity: 20%;
-                margin-top: 12%;
+                margin-top: 15%;
                 margin-left: 20px;
                 cursor: pointer;
             }
@@ -534,7 +534,7 @@
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
                 transform: translateX(0%) translateY(0%);
-                animation: jucken 1s ease-in forwards;
+                animation: jucken 1s ease-in forwards infinite;
                 opacity: 100%;
                 background-color: rgb(255, 78, 193);
                 color: #050d3c;
@@ -547,7 +547,7 @@
                 height: 10px;
                 border-radius: 25px;
                 opacity: 20%;
-                margin-top: 10%;
+                margin-top: 5%;
                 margin-left: 20px;
                 cursor: pointer;
             }
@@ -557,7 +557,7 @@
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
                 transform: translateX(0%) translateY(0%);
-                animation: jucken 1s ease-in forwards;
+                animation: jucken 1s ease-in forwards infinite;
                 opacity: 100%;
                 background-color: rgb(255, 78, 193);
                 color: #050d3c;
@@ -570,7 +570,7 @@
                 height: 10px;
                 border-radius: 25px;
                 opacity: 20%;
-                margin-top: 15%;
+                margin-top: 12%;
                 margin-left: 20px;
                 cursor: pointer;
             }
@@ -580,7 +580,7 @@
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
                 transform: translateX(0%) translateY(0%);
-                animation: jucken 1s ease-in forwards;
+                animation: jucken 1s ease-in forwards infinite;
                 opacity: 100%;
                 background-color: rgb(255, 78, 193);
                 color: #050d3c;
@@ -593,7 +593,7 @@
                 height: 10px;
                 border-radius: 25px;
                 opacity: 20%;
-                margin-top: 15%;
+                margin-top: 12%;
                 margin-left: 20px;
                 cursor: pointer;
             }
@@ -603,7 +603,76 @@
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
                 transform: translateX(0%) translateY(0%);
-                animation: jucken 1s ease-in forwards;
+                animation: jucken 1s ease-in forwards infinite;
+                opacity: 100%;
+                background-color: rgb(255, 78, 193);
+                color: #050d3c;
+            }
+            
+            .j11 {
+                margin-bottom: 150px;
+                background-color: rgb(255, 78, 193);
+                width: 500px;
+                height: 10px;
+                border-radius: 25px;
+                opacity: 20%;
+                margin-top: 15%;
+                margin-left: 20px;
+                cursor: pointer;
+            }
+            
+            .j11:hover {
+                text-shadow: 0 0 0px rgba(0, 0, 0, 1);
+                transition: 0s ease-in-out;
+                animation-duration: 0s;
+                transform: translateX(0%) translateY(0%);
+                animation: jucken 1s ease-in forwards infinite;
+                opacity: 100%;
+                background-color: rgb(255, 78, 193);
+                color: #050d3c;
+            }
+            
+            .j12 {
+                margin-bottom: 150px;
+                background-color: rgb(255, 78, 193);
+                width: 500px;
+                height: 10px;
+                border-radius: 25px;
+                opacity: 20%;
+                margin-top: 15%;
+                margin-left: 20px;
+                cursor: pointer;
+            }
+            
+            .j12:hover {
+                text-shadow: 0 0 0px rgba(0, 0, 0, 1);
+                transition: 0s ease-in-out;
+                animation-duration: 0s;
+                transform: translateX(0%) translateY(0%);
+                animation: jucken 1s ease-in forwards infinite;
+                opacity: 100%;
+                background-color: rgb(255, 78, 193);
+                color: #050d3c;
+            }
+            
+            .j13 {
+                margin-bottom: 150px;
+                background-color: rgb(255, 78, 193);
+                width: 500px;
+                height: 10px;
+                border-radius: 25px;
+                opacity: 20%;
+                margin-top: 4%;
+                margin-left: 20px;
+                cursor: pointer;
+            }
+            
+            .j13:hover {
+                text-shadow: 0 0 0px rgba(0, 0, 0, 1);
+                transition: 0s ease-in-out;
+                animation-duration: 0s;
+                transform: translateX(0%) translateY(0%);
+                animation: jucken 1s ease-in forwards infinite;
                 opacity: 100%;
                 background-color: rgb(255, 78, 193);
                 color: #050d3c;
@@ -623,7 +692,7 @@
             .a1:hover {
                 opacity: 100%;
                 text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
-                animation: aufstützen 3s ease-in-out;
+                animation: aufstützen 3s ease-in-out infinite;
                 animation-duration: 3s;
                 transition: 0s;
                 background-color: rgb(95, 37, 255);
@@ -643,7 +712,7 @@
             .a2:hover {
                 opacity: 100%;
                 text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
-                animation: aufstützen 3s ease-in-out;
+                animation: aufstützen 3s ease-in-out infinite;
                 animation-duration: 3s;
                 transition: 0s;
                 background-color: rgb(95, 37, 255);
@@ -663,7 +732,7 @@
             .a3:hover {
                 opacity: 100%;
                 text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
-                animation: aufstützen 3s ease-in-out;
+                animation: aufstützen 3s ease-in-out infinite;
                 animation-duration: 3s;
                 transition: 0s;
                 background-color: rgb(95, 37, 255);
@@ -683,7 +752,7 @@
             .a4:hover {
                 opacity: 100%;
                 text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
-                animation: aufstützen 3s ease-in-out;
+                animation: aufstützen 3s ease-in-out infinite;
                 animation-duration: 3s;
                 transition: 0s;
                 background-color: rgb(95, 37, 255);
@@ -703,7 +772,7 @@
             .a5:hover {
                 opacity: 100%;
                 text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
-                animation: aufstützen 3s ease-in-out;
+                animation: aufstützen 3s ease-in-out infinite;
                 animation-duration: 3s;
                 transition: 0s;
                 background-color: rgb(95, 37, 255);
@@ -723,7 +792,7 @@
             .a6:hover {
                 opacity: 100%;
                 text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
-                animation: aufstützen 3s ease-in-out;
+                animation: aufstützen 3s ease-in-out infinite;
                 animation-duration: 3s;
                 transition: 0s;
                 background-color: rgb(95, 37, 255);
@@ -743,7 +812,7 @@
             .a7:hover {
                 opacity: 100%;
                 text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
-                animation: aufstützen 3s ease-in-out;
+                animation: aufstützen 3s ease-in-out infinite;
                 animation-duration: 3s;
                 transition: 0s;
                 background-color: rgb(95, 37, 255);
@@ -763,7 +832,7 @@
             .a8:hover {
                 opacity: 100%;
                 text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
-                animation: aufstützen 3s ease-in-out;
+                animation: aufstützen 3s ease-in-out infinite;
                 animation-duration: 3s;
                 transition: 0s;
                 background-color: rgb(95, 37, 255);
@@ -783,7 +852,7 @@
             .a9:hover {
                 opacity: 100%;
                 text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
-                animation: aufstützen 3s ease-in-out;
+                animation: aufstützen 3s ease-in-out infinite;
                 animation-duration: 3s;
                 transition: 0s;
                 background-color: rgb(95, 37, 255);
@@ -803,7 +872,7 @@
             .a10:hover {
                 opacity: 100%;
                 text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
-                animation: aufstützen 3s ease-in-out;
+                animation: aufstützen 3s ease-in-out infinite;
                 animation-duration: 3s;
                 transition: 0s;
                 background-color: rgb(95, 37, 255);
@@ -823,7 +892,7 @@
             .a11:hover {
                 opacity: 100%;
                 text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
-                animation: aufstützen 3s ease-in-out;
+                animation: aufstützen 3s ease-in-out infinite;
                 animation-duration: 3s;
                 transition: 0s;
                 background-color: rgb(95, 37, 255);
@@ -843,7 +912,7 @@
             .a12:hover {
                 opacity: 100%;
                 text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
-                animation: aufstützen 3s ease-in-out;
+                animation: aufstützen 3s ease-in-out infinite;
                 animation-duration: 3s;
                 transition: 0s;
                 background-color: rgb(95, 37, 255);
@@ -863,7 +932,7 @@
             .a13:hover {
                 opacity: 100%;
                 text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
-                animation: aufstützen 3s ease-in-out;
+                animation: aufstützen 3s ease-in-out infinite;
                 animation-duration: 3s;
                 transition: 0s;
                 background-color: rgb(95, 37, 255);
@@ -883,7 +952,7 @@
             .a14:hover {
                 opacity: 100%;
                 text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
-                animation: aufstützen 3s ease-in-out;
+                animation: aufstützen 3s ease-in-out infinite;
                 animation-duration: 3s;
                 transition: 0s;
                 background-color: rgb(95, 37, 255);
@@ -903,7 +972,7 @@
             .a15:hover {
                 opacity: 100%;
                 text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
-                animation: aufstützen 3s ease-in-out;
+                animation: aufstützen 3s ease-in-out infinite;
                 animation-duration: 3s;
                 transition: 0s;
                 background-color: rgb(95, 37, 255);
@@ -923,7 +992,7 @@
             .a16:hover {
                 opacity: 100%;
                 text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
-                animation: aufstützen 3s ease-in-out;
+                animation: aufstützen 3s ease-in-out infinite;
                 animation-duration: 3s;
                 transition: 0s;
                 background-color: rgb(95, 37, 255);
@@ -943,7 +1012,7 @@
             .a17:hover {
                 opacity: 100%;
                 text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
-                animation: aufstützen 3s ease-in-out;
+                animation: aufstützen 3s ease-in-out infinite;
                 animation-duration: 3s;
                 transition: 0s;
                 background-color: rgb(95, 37, 255);
@@ -1055,7 +1124,7 @@
                 height: 10px;
                 border-radius: 25px;
                 opacity: 50%;
-                margin-top: 19%;
+                margin-top: 8%;
                 cursor: pointer;
                 margin-left: 20px;
             }
@@ -1089,7 +1158,7 @@
                 height: 10px;
                 border-radius: 25px;
                 opacity: 50%;
-                margin-top: 6%;
+                margin-top: 8%;
                 cursor: pointer;
                 margin-left: 20px;
             }
@@ -1117,27 +1186,70 @@
                 color: #050d3c;
             }
             
+            .g6 {
+                background-color: rgb(0, 215, 140);
+                width: 500px;
+                height: 10px;
+                border-radius: 25px;
+                opacity: 50%;
+                margin-top: 16%;
+                cursor: pointer;
+                margin-left: 20px;
+            }
+            
+            .g6:hover {
+                opacity: 100%;
+                color: rgb(0, 215, 140);
+            }
+            
+            .g6text {
+                display: flex;
+                position: absolute;
+                justify-content: center;
+                align-items: center;
+                opacity: 35%;
+                z-index: 50;
+                color: transparent;
+                text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+                margin-right: 60px;
+            }
+            
+            .g6text:hover {
+                text-shadow: 0 0 5px rgba(0, 0, 0, 0.0);
+                opacity: 100%;
+                color: #050d3c;
+            }
+            
             @keyframes jucken {
                 0% {
                     transform: translateX(0%);
                 }
-                18% {
+                12% {
                     transform: translateY(200%);
                 }
-                36% {
+                24% {
                     transform: translateX(-30%);
                 }
-                54% {
+                36% {
                     transform: translateY(-200%);
                 }
-                72% {
+                48% {
                     transform: translateX(30%);
                 }
-                90% {
+                60% {
                     transform: translateY(0%);
                 }
-                100% {
+                72% {
                     transform: translateX(0%);
+                }
+                84% {
+                    transform: translateY(0%);
+                }
+                96% {
+                    transform: translateX(0%);
+                }
+                100% {
+                    transform: translateY(0%);
                 }
             }
             
