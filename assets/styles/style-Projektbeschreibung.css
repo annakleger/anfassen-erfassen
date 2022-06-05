@@ -63,7 +63,8 @@
             }
             
             h6 {
-                margin-bottom: 5%;
+                margin-top: 0;
+                margin-bottom: -5px;
                 font-family: Helvetica, Arial, sans-serif;
                 font-size: 1.3vw;
                 font-weight: 300;
@@ -257,6 +258,10 @@
             .legende {
                 position: fixed;
                 color: #893c6f;
+            }
+            
+            .grundfarbe {
+                color: #050d3c;
             }
             
             .reasoncircles {
@@ -1247,23 +1252,132 @@
                 line-height: 26px;
             }
             
-            #scoreprogress {
-                margin-top: -10px;
+            #scoreprogress1 {
+                margin-top: 30px;
                 width: 100%;
                 background-color: #dddddd;
                 border-radius: 25px;
             }
             
-            #scorebar {
+            #scorebar1 {
                 width: 1%;
                 height: 15px;
                 border-radius: 25px;
                 background-color: #893c6f;
                 text-align: center;
                 line-height: 15px;
+                color: #dddddd;
             }
             
-            .button {
+            #scoreprogress2 {
+                margin-top: 0px;
+                width: 100%;
+                background-color: #dddddd;
+                border-radius: 25px;
+            }
+            
+            #scorebar2 {
+                width: 1%;
+                height: 15px;
+                border-radius: 25px;
+                background-color: rgb(95, 37, 255);
+                text-align: center;
+                line-height: 15px;
+                color: #dddddd;
+            }
+            
+            #scoreprogress3 {
+                margin-top: 0px;
+                width: 100%;
+                background-color: #dddddd;
+                border-radius: 25px;
+            }
+            
+            #scorebar3 {
+                width: 1%;
+                height: 15px;
+                border-radius: 25px;
+                background-color: rgb(255, 78, 193);
+                text-align: center;
+                line-height: 15px;
+                color: #dddddd;
+            }
+            
+            #scoreprogress4 {
+                margin-top: 0px;
+                width: 100%;
+                background-color: #dddddd;
+                border-radius: 25px;
+            }
+            
+            #scorebar4 {
+                width: 1%;
+                height: 15px;
+                border-radius: 25px;
+                background-color: rgb(0, 215, 140);
+                text-align: center;
+                line-height: 15px;
+                color: #dddddd;
+            }
+            
+            #scoreprogress5 {
+                margin-top: 0px;
+                width: 100%;
+                background-color: #dddddd;
+                border-radius: 25px;
+            }
+            
+            #scorebar5 {
+                width: 1%;
+                height: 15px;
+                border-radius: 25px;
+                background-color: #893c6f;
+                text-align: center;
+                line-height: 15px;
+                color: #dddddd;
+            }
+            
+            .button1 {
+                font-family: Helvetica, Arial, sans-serif;
+                font-size: 1vw;
+                font-weight: 300;
+                border-radius: 25px;
+                background-color: #dddddd;
+                color: #893c6f;
+                border: solid 2px #893c6f;
+            }
+            
+            .button2 {
+                font-family: Helvetica, Arial, sans-serif;
+                font-size: 1vw;
+                font-weight: 300;
+                border-radius: 25px;
+                background-color: #dddddd;
+                color: rgb(95, 37, 255);
+                border: solid 2px rgb(95, 37, 255);
+            }
+            
+            .button3 {
+                font-family: Helvetica, Arial, sans-serif;
+                font-size: 1vw;
+                font-weight: 300;
+                border-radius: 25px;
+                background-color: #dddddd;
+                color: rgb(255, 78, 193);
+                border: solid 2px rgb(255, 78, 193);
+            }
+            
+            .button4 {
+                font-family: Helvetica, Arial, sans-serif;
+                font-size: 1vw;
+                font-weight: 300;
+                border-radius: 25px;
+                background-color: #dddddd;
+                color: rgb(0, 215, 140);
+                border: solid 2px rgb(0, 215, 140);
+            }
+            
+            .button5 {
                 font-family: Helvetica, Arial, sans-serif;
                 font-size: 1vw;
                 font-weight: 300;

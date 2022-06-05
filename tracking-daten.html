@@ -18,9 +18,35 @@
             <h1><span style="font-family:'Retalic_30_Lt'" class="main_title"><a href="index.html" id="anfassen_main">Anfassen</a></span> &#160;<a href="index.html" id="erfassen_main">Erfassen</a>
             </h1>
             <div class="legende">
-                <p>Legende</p>
-                <p>R/L = dominierende Hand <br> ✺ = Anzahl bewusste Berührungen <br> Name, Wochentag, Datum, Zeit <br> Ort, Aktivität, Dauer <br><br> dominierender Berührungsgrund <br> = <br>
-                </p>
+
+                <p>R/L = dominierende Hand <br> ✺ = Anzahl bewusste Berührungen <br> Name, Wochentag, Datum, Zeit <br> Ort, Aktivität, Dauer</p>
+
+                <div class="score">
+                </div>
+                <div id="scoreprogress1">
+                    <div id="scorebar1"></div>
+                </div>
+                <button onclick="scoretrackings()" class="button1">↺ TOTAL TRACKINGS</button>
+                <div id="scoreprogress5">
+                    <div id="scorebar5"></div>
+                </div>
+                <button onclick="scorebewusst()" class="button5">↺ TOTAL BEWUSSTE BERÜHRUNGEN</button>
+                <div id="scoreprogress2">
+                    <div id="scorebar2"></div>
+                </div>
+                <button onclick="scoreaufstützen()" class="button2">↺ TOTAL AUFSTÜTZEN</button>
+                <div id="scoreprogress3">
+                    <div id="scorebar3"></div>
+                </div>
+                <button onclick="scorejucken()" class="button3">↺ TOTAL JUCKEN</button>
+                <div id="scoreprogress4">
+                    <div id="scorebar4"></div>
+                </div>
+                <button onclick="scoregewohnheit()" class="button4">↺ TOTAL GEWOHNHEIT</button>
+
+
+                <p>Dominierender Berührungsgrund =</p>
+
                 <div class="reasoncircles">
 
                     <div class="reason1">
@@ -38,26 +64,6 @@
                         </div>
                     </div>
                 </div>
-
-
-                <div class="score">
-
-                    <h6><br>Overall score</h6>
-                </div>
-
-                <div id="scoreprogress">
-                    <div id="scorebar">36</div>
-                </div>
-
-
-                <button onclick="scoretrackings()" class="button">↺ TOTAL TRACKINGS</button>
-
-
-
-
-
-
-
             </div>
         </div>
 
