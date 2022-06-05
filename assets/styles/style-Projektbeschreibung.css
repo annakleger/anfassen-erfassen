@@ -301,7 +301,7 @@
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
                 transform: translateX(0%) translateY(0%);
-                animation: jucken 1s ease-in forwards infinite;
+                animation: jucken 1s alternate-reverse infinite;
                 opacity: 100%;
                 background-color: rgb(255, 78, 193);
             }
@@ -396,7 +396,7 @@
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
                 transform: translateX(0%) translateY(0%);
-                animation: jucken 1s ease-in forwards infinite;
+                animation: jucken 1s alternate-reverse infinite;
                 opacity: 100%;
                 background-color: rgb(255, 78, 193);
                 color: #050d3c;
@@ -419,7 +419,7 @@
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
                 transform: translateX(0%) translateY(0%);
-                animation: jucken 1s ease-in forwards infinite;
+                animation: jucken 1s alternate-reverse infinite;
                 opacity: 100%;
                 background-color: rgb(255, 78, 193);
                 color: #050d3c;
@@ -442,7 +442,7 @@
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
                 transform: translateX(0%) translateY(0%);
-                animation: jucken 1s ease-in forwards infinite;
+                animation: jucken 1s alternate-reverse infinite;
                 opacity: 100%;
                 background-color: rgb(255, 78, 193);
                 color: #050d3c;
@@ -465,7 +465,7 @@
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
                 transform: translateX(0%) translateY(0%);
-                animation: jucken 1s ease-in forwards infinite;
+                animation: jucken 1s alternate-reverse infinite;
                 opacity: 100%;
                 background-color: rgb(255, 78, 193);
                 color: #050d3c;
@@ -488,7 +488,7 @@
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
                 transform: translateX(0%) translateY(0%);
-                animation: jucken 1s ease-in forwards infinite;
+                animation: jucken 1s alternate-reverse infinite;
                 opacity: 100%;
                 background-color: rgb(255, 78, 193);
                 color: #050d3c;
@@ -511,7 +511,7 @@
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
                 transform: translateX(0%) translateY(0%);
-                animation: jucken 1s ease-in forwards infinite;
+                animation: jucken 1s alternate-reverse infinite;
                 opacity: 100%;
                 background-color: rgb(255, 78, 193);
                 color: #050d3c;
@@ -534,7 +534,7 @@
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
                 transform: translateX(0%) translateY(0%);
-                animation: jucken 1s ease-in forwards infinite;
+                animation: jucken 1s alternate-reverse infinite;
                 opacity: 100%;
                 background-color: rgb(255, 78, 193);
                 color: #050d3c;
@@ -557,7 +557,7 @@
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
                 transform: translateX(0%) translateY(0%);
-                animation: jucken 1s ease-in forwards infinite;
+                animation: jucken 1s alternate-reverse infinite;
                 opacity: 100%;
                 background-color: rgb(255, 78, 193);
                 color: #050d3c;
@@ -580,7 +580,7 @@
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
                 transform: translateX(0%) translateY(0%);
-                animation: jucken 1s ease-in forwards infinite;
+                animation: jucken 1s alternate-reverse infinite;
                 opacity: 100%;
                 background-color: rgb(255, 78, 193);
                 color: #050d3c;
@@ -603,7 +603,7 @@
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
                 transform: translateX(0%) translateY(0%);
-                animation: jucken 1s ease-in forwards infinite;
+                animation: jucken 1s alternate-reverse infinite;
                 opacity: 100%;
                 background-color: rgb(255, 78, 193);
                 color: #050d3c;
@@ -626,7 +626,7 @@
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
                 transform: translateX(0%) translateY(0%);
-                animation: jucken 1s ease-in forwards infinite;
+                animation: jucken 1s alternate-reverse infinite;
                 opacity: 100%;
                 background-color: rgb(255, 78, 193);
                 color: #050d3c;
@@ -649,7 +649,7 @@
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
                 transform: translateX(0%) translateY(0%);
-                animation: jucken 1s ease-in forwards infinite;
+                animation: jucken 1s alternate-reverse infinite;
                 opacity: 100%;
                 background-color: rgb(255, 78, 193);
                 color: #050d3c;
@@ -672,7 +672,7 @@
                 transition: 0s ease-in-out;
                 animation-duration: 0s;
                 transform: translateX(0%) translateY(0%);
-                animation: jucken 1s ease-in forwards infinite;
+                animation: jucken 1s alternate-reverse infinite;
                 opacity: 100%;
                 background-color: rgb(255, 78, 193);
                 color: #050d3c;
@@ -1224,32 +1224,35 @@
                 0% {
                     transform: translateX(0%);
                 }
-                12% {
+                10% {
                     transform: translateY(200%);
                 }
-                24% {
+                20% {
                     transform: translateX(-30%);
                 }
-                36% {
+                30% {
                     transform: translateY(-200%);
                 }
-                48% {
+                40% {
                     transform: translateX(30%);
                 }
+                50% {
+                    transform: translateY(0%);
+                }
                 60% {
-                    transform: translateY(0%);
-                }
-                72% {
                     transform: translateX(0%);
                 }
-                84% {
+                70% {
                     transform: translateY(0%);
                 }
-                96% {
+                80% {
                     transform: translateX(0%);
+                }
+                90% {
+                    transform: translateY(0%);
                 }
                 100% {
-                    transform: translateY(0%);
+                    transform: translateX(0%);
                 }
             }
             
