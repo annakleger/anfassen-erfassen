@@ -222,7 +222,7 @@ function show_gesture(value) {
                                 pop();
 
                                 // blendMode(OVERLAY);
-                                tint(255, 250); //deckkraft
+                                tint(255, 100); //deckkraft
 
                                 //filter(BLUR, 3);
 
@@ -238,7 +238,7 @@ function show_gesture(value) {
 
 
 
-                                tint(255, 250); //deckkraft
+                                tint(255, 100); //deckkraft
                             }
                         }
 
