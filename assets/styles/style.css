@@ -22,6 +22,8 @@ body {
     background-color: #131423;
     color: #050d3c;
     height: 200vh;
+    overflow: hidden;
+    cursor: url('/assets/img/cursor.png'), auto;
 }
 
 html {
@@ -97,7 +99,7 @@ h2.arrow_text {
     font-weight: 100;
     position: absolute;
     bottom: 0;
-    margin-bottom: 5%;
+    margin-bottom: 4%;
     width: 100%;
     text-align: center;
     opacity: 70%;

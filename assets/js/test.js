@@ -1,6 +1,6 @@
 let test_data;
 
-let select = "larissa";
+let select = "celine";
 
 let vergroessern = 1;
 
@@ -19,7 +19,8 @@ let patterns = new Array();
 
 // This function loads resources that will be used later.
 function preload() {
-    let url_test = "/assets/json/tracking.json";
+    //let url_test = "/assets/json/tracking.json";
+    let url_test = "/assets/json/alleTrackings_namensortiert.json";
     loadJSON(url_test, loaded);
 
     //png1 = loadImage('/assets/img/patterns/4Zeichenfläche 1.png');
@@ -86,13 +87,13 @@ function setup() {
     cell_size = width / col
 
     //save-button erstellen
-    // let save_button = createButton("Speichern");
-    // save_button.position(40, 990);
-    // save_button.mousePressed(saveSketch);
+    let save_button = createButton("Speichern");
+    save_button.position(40, 1400);
+    save_button.mousePressed(saveSketch);
 
     angleMode(DEGREES);
 
-    frameRate(4);
+    frameRate(12);
     //noLoop();
 
     background('#131423');
@@ -218,11 +219,12 @@ function show_gesture(value) {
                                 push();
                                 translate(x * cell_size + cell_size / 2, y * cell_size + cell_size / 2);
                                 rotate(0);
+                                //blendMode(OVERLAY);
+                                tint(255, 200); //deckkraft
                                 image(bild, -cell_size / 2, -cell_size / 2, cell_size, cell_size);
                                 pop();
 
-                                // blendMode(OVERLAY);
-                                tint(255, 100); //deckkraft
+
 
                                 //filter(BLUR, 3);
 

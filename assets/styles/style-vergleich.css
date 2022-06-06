@@ -1,154 +1,164 @@
-@font-face {
-    font-family: 'Retalic_30_Lt';
-    src: url('../fonts/GT-Planar-Retalic-30-Light-Trial.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'Italic_30_Lt';
-    src: url('../fonts/GT-Planar-Italic-30-Light-Trial.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'Regular_Lt';
-    src: url('../fonts/GT-Planar-Light-Trial.woff2') format('woff2');
-}
-
-body {
-    margin: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    /* padding-left: 5%;
+    @font-face {
+        font-family: 'Retalic_30_Lt';
+        src: url('../fonts/GT-Planar-Retalic-30-Light-Trial.woff2') format('woff2');
+    }
+    
+    @font-face {
+        font-family: 'Italic_30_Lt';
+        src: url('../fonts/GT-Planar-Italic-30-Light-Trial.woff2') format('woff2');
+    }
+    
+    @font-face {
+        font-family: 'Regular_Lt';
+        src: url('../fonts/GT-Planar-Light-Trial.woff2') format('woff2');
+    }
+    
+    body {
+        margin: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        /* padding-left: 5%;
     padding-right: 10%; */
-    padding-top: 0px;
-    font-family: Regular_Lt;
-    font-weight: 400;
-    font-style: normal;
-    background-color: #131423;
-    color: white;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-a {
-    text-decoration: none;
-}
-
-.content-carousel {
-    width: 30%;
-    height: 30%;
-    /* background-color: blueviolet; */
-    overflow: hidden;
-    margin-top: 5%;
-}
-
-.container-carousel {
-    width: 100%;
-    position: relative;
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.carousel {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    overflow: auto;
-    scroll-snap-type: x mandatory;
-}
-
-.carousel .itemcarousel {
-    flex: 0 0 100%;
-    height: 100%;
-    display: grid;
-    scroll-snap-align: start;
-    place-items: center;
-    font-size: 1rem;
-    color: #fff;
-}
-
-span {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.profilname {
-    color: #84416e;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.5vw;
-    font-weight: 300;
-}
-
-.platzhalter {
-    width: 100%;
-    height: 100%;
-    background-color: #131423;
-    ;
-}
-
-.outer {
-    position: relative;
-    margin: auto;
-    width: 70px;
-    margin-top: 5%;
-    margin-left: 90%;
-    margin-bottom: 0px;
-    cursor: pointer;
-}
-
-.inner {
-    width: inherit;
-    text-align: center;
-}
-
-label {
-    font-size: .8em;
-    line-height: 4em;
-    text-transform: uppercase;
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    transition: all .3s ease-in;
-    opacity: 0;
-    cursor: pointer;
-}
-
-.inner:before,
-.inner:after {
-    position: absolute;
-    content: '';
-    height: 1px;
-    width: inherit;
-    background: #893c6f;
-    left: 0;
-    transition: all .3s ease-in;
-}
-
-.inner:before {
-    top: 50%;
-    transform: rotate(45deg);
-}
-
-.inner:after {
-    bottom: 50%;
-    transform: rotate(-45deg);
-}
-
-.outer:hover label {
-    opacity: 1;
-}
-
-.outer:hover .inner:before,
-.outer:hover .inner:after {
-    transform: rotate(0);
-}
-
-.outer:hover .inner:before {
-    top: 0;
-}
-
-.outer:hover .inner:after {
-    bottom: 0;
-}
+        padding-top: 0px;
+        font-family: Regular_Lt;
+        font-weight: 400;
+        font-style: normal;
+        background-color: #131423;
+        color: white;
+        box-sizing: border-box;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .content-carousel {
+        width: 30%;
+        height: 30%;
+        /* background-color: blueviolet; */
+        overflow: hidden;
+        margin-top: 5%;
+    }
+    
+    .container-carousel {
+        width: 100%;
+        position: relative;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .carousel {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        overflow: auto;
+        scroll-snap-type: x mandatory;
+    }
+    
+    .carousel .itemcarousel {
+        flex: 0 0 100%;
+        height: 100%;
+        display: grid;
+        scroll-snap-align: start;
+        place-items: center;
+        font-size: 1rem;
+        color: #fff;
+    }
+    
+    span {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .profilname {
+        color: #84416e;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 1.5vw;
+        font-weight: 300;
+    }
+    
+    .platzhalter {
+        width: 100%;
+        height: 100%;
+        background-color: #131423;
+        ;
+    }
+    
+    .outer {
+        position: relative;
+        margin: auto;
+        width: 70px;
+        margin-top: 5%;
+        margin-left: 90%;
+        margin-bottom: 0px;
+        cursor: pointer;
+    }
+    
+    .inner {
+        width: inherit;
+        text-align: center;
+    }
+    
+    label {
+        font-size: .8em;
+        line-height: 4em;
+        text-transform: uppercase;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: all .3s ease-in;
+        opacity: 0;
+        cursor: pointer;
+    }
+    
+    .inner:before,
+    .inner:after {
+        position: absolute;
+        content: '';
+        height: 1px;
+        width: inherit;
+        background: #893c6f;
+        left: 0;
+        transition: all .3s ease-in;
+    }
+    
+    .inner:before {
+        top: 50%;
+        transform: rotate(45deg);
+    }
+    
+    .inner:after {
+        bottom: 50%;
+        transform: rotate(-45deg);
+    }
+    
+    .outer:hover label {
+        opacity: 1;
+    }
+    
+    .outer:hover .inner:before,
+    .outer:hover .inner:after {
+        transform: rotate(0);
+    }
+    
+    .outer:hover .inner:before {
+        top: 0;
+    }
+    
+    .outer:hover .inner:after {
+        bottom: 0;
+    }
+    /* scrollbar */
+    
+     ::-webkit-scrollbar {
+        background: #84416e65;
+    }
+    
+     ::-webkit-scrollbar-thumb {
+        background: #84416e;
+        border-radius: 10px;
+    }
