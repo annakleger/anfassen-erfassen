@@ -26,6 +26,7 @@
                 background-color: white;
                 color: #050d3c;
                 box-sizing: border-box;
+                cursor: url('/assets/img/cursor.svg'), auto;
             }
             
             html {
@@ -137,6 +138,7 @@
                 text-decoration: none;
                 /* padding-top: 2%; */
                 font-size: 1.5vw;
+                cursor: url('/assets/img/cursor.svg'), auto;
             }
             
             .profilname {
@@ -1460,6 +1462,7 @@
                 background-color: #dddddd;
                 color: #893c6f;
                 border: solid 2px #893c6f;
+                cursor: url('/assets/img/cursor.svg'), auto;
             }
             
             .button2 {
@@ -1470,6 +1473,7 @@
                 background-color: #dddddd;
                 color: rgb(95, 37, 255);
                 border: solid 2px rgb(95, 37, 255);
+                cursor: url('/assets/img/cursor.svg'), auto;
             }
             
             .button3 {
@@ -1480,6 +1484,7 @@
                 background-color: #dddddd;
                 color: rgb(255, 78, 193);
                 border: solid 2px rgb(255, 78, 193);
+                cursor: url('/assets/img/cursor.svg'), auto;
             }
             
             .button4 {
@@ -1490,6 +1495,7 @@
                 background-color: #dddddd;
                 color: rgb(0, 215, 140);
                 border: solid 2px rgb(0, 215, 140);
+                cursor: url('/assets/img/cursor.svg'), auto;
             }
             
             .button5 {
@@ -1500,6 +1506,7 @@
                 background-color: #dddddd;
                 color: #893c6f;
                 border: solid 2px #893c6f;
+                cursor: url('/assets/img/cursor.svg'), auto;
             }
             /* Tracking-Videos */
             

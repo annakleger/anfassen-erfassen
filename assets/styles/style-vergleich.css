@@ -26,6 +26,7 @@
         background-color: #131423;
         color: white;
         box-sizing: border-box;
+        cursor: url('/assets/img/cursor.svg'), auto;
     }
     
     html {
@@ -34,6 +35,7 @@
     
     a {
         text-decoration: none;
+        cursor: url('/assets/img/cursor.svg'), auto;
     }
     
     .content-carousel {
@@ -73,6 +75,7 @@
     span {
         padding-left: 10px;
         padding-right: 10px;
+        cursor: url('/assets/img/cursor.svg'), auto;
     }
     
     .profilname {
@@ -112,7 +115,7 @@
         font-family: Arial, Helvetica, sans-serif;
         transition: all .3s ease-in;
         opacity: 0;
-        cursor: pointer;
+        cursor: url('/assets/img/cursor.svg'), auto;
     }
     
     .inner:before,

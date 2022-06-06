@@ -23,7 +23,7 @@ body {
     color: #050d3c;
     height: 200vh;
     overflow: hidden;
-    cursor: url('/assets/img/cursor.png'), auto;
+    cursor: url('/assets/img/cursor.svg'), auto;
 }
 
 html {
@@ -269,6 +269,7 @@ section {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     box-sizing: border-box;
+    cursor: url('/assets/img/cursor.svg'), auto;
 }
 
 #section01 a span:hover {
@@ -305,6 +306,7 @@ section {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     box-sizing: border-box;
+    cursor: url('/assets/img/cursor.svg'), auto;
 }
 
 #section02 a span:hover {
@@ -331,6 +333,7 @@ section {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     box-sizing: border-box;
+    cursor: url('/assets/img/cursor.svg'), auto;
 }
 
 #section03 a span:hover {
@@ -357,6 +360,7 @@ section {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     box-sizing: border-box;
+    cursor: url('/assets/img/cursor.svg'), auto;
 }
 
 #section04 a span:hover {
