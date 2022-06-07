@@ -187,7 +187,8 @@ function grid(value) {
 
 function show_gesture(value) {
     let face_positions = get_positions_face(test_data[value])
-    let hand = get_hand(test_data[value])
+    let hand = get_hand(test_data[value]);
+    console.log(test_data[value].time)
         //console.log(hand);
     for (let x = 0; x <= col; x += 1) {
         for (let y = 0; y <= row; y += 1) {
@@ -195,6 +196,7 @@ function show_gesture(value) {
             // aginst the grid
             for (let i = 0; i < face_positions.length; i++) {
                 const element = face_positions[i];
+
                 let pos_x = element.x
                 let pos_y = element.y
                 if (x == pos_x && y == pos_y) {
@@ -202,13 +204,13 @@ function show_gesture(value) {
                     let bild;
                     let welcheHand;
                     for (let h = 0; h < hand.length; h++) {
-                        //console.log(hand[h]);
+                        console.log(hand[h]);
                         const hands = hand[h].split(",")
                         for (const el of hands) {
                             //const parts = el.split("")
                             welcheHand = el.substr(0, 1); //kommentar HZ: hier ueber substring arbeiten, nicht split
                             bildnummer = el.substr(1, el.length) //kommentar HZ: hier ueber substring arbeiten, nicht split, sonst kommt bloss die erste Zahl raus
-                                //console.log(bildnummer - 1)
+                            console.log(bildnummer - 1)
                             if (bildnummer == undefined) {
                                 continue
                             }
