@@ -87,13 +87,13 @@ function setup() {
     cell_size = width / col
 
     //save-button erstellen
-    let save_button = createButton("Speichern");
-    save_button.position(40, 1400);
-    save_button.mousePressed(saveSketch);
+    // let save_button = createButton("Speichern");
+    // save_button.position(40, 1400);
+    // save_button.mousePressed(saveSketch);
 
     angleMode(DEGREES);
 
-    frameRate(12);
+    frameRate(600);
     //noLoop();
 
     background('#131423');
@@ -140,14 +140,14 @@ function draw() {
     //mit selector
 
     //for (let i = 0 + start; i < counter + start; i++) kommentar HZ: achtung, hier braucht es keinen Loop!
-    if (test_data[counter].name == select) {
-        show_gesture(counter)
-    }
-
-    //ohne selector
-    // for (let i = 0; i < counter; i++) {
+    // if (test_data[counter].name == select) {
     //     show_gesture(counter)
     // }
+
+    //ohne selector
+    for (let i = 0; i < counter; i++) {
+        show_gesture(counter)
+    }
 
 
     if (counter < test_data.length) {

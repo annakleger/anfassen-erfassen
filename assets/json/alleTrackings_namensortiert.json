@@ -1,10 +1,10 @@
 [{
-        "name": "anna",
-        "time": "01.06.2022 um 09:55",
-        "activity": "Zuhause, SG, Laptop",
-        "reason": "j",
-        "face": "7/3, 8/2, 9/3, 8/4, 10/3",
-        "hand": "L37, L38, L39"
+        "name": "celine",
+        "time": "04.06.2022, 10:10",
+        "activity": "Zuhause, ZG, Laptop",
+        "reason": "d",
+        "face": "6/10, 7/11, 7/12",
+        "hand": "L28, L27"
     },
     {
         "name": "anna",
@@ -23,29 +23,62 @@
         "hand": "R19, R17, L41"
     },
     {
-        "name": "anna",
-        "time": "01.06.22 um 10.08",
-        "activity": "Zuhause, SG, Laptop",
+        "name": "larissa",
+        "time": "02.06.2022, 19:53",
+        "activity": "Zuhause, SG, TV",
         "reason": "j",
-        "face": "7/10, 8/9, 6/9, 6/10, 8/10, 9/9, 9/10, 10/8",
-        "hand": "R19, R17, L41, R20, R16"
+        "face": "8/10",
+        "hand": "L36"
     },
     {
-        "name": "anna",
-        "time": "01.06.22 um 10.09",
-        "activity": "Zuhause, SG, Laptop",
-        "reason": "k",
-        "face": "7/6, 7/7, 7/8",
-        "hand": "L42, L38"
+        "name": "celine",
+        "time": "04.06.2022, 09:27",
+        "activity": "Zuhause, ZG, Laptop",
+        "reason": "a",
+        "face": "8/13, 8/14, 10/11, 11/11, 10/12, 9/13, 11/10",
+        "hand": "L23, L24, L25, L26, L30"
     },
     {
-        "name": "anna",
-        "time": "01.06.22 um 10.10",
+        "name": "celine",
+        "time": "04.06.2022, 09:27",
+        "activity": "Zuhause, ZG, Laptop",
+        "reason": "a",
+        "face": "10/10, 10/11, 11/11, 10/12, 9/13, 10/13",
+        "hand": "L23, L24, L25, L26, L30"
+    },
+    {
+        "name": "larissa",
+        "time": "17.05.2022, 15:58",
         "activity": "Zuhause, SG, Laptop",
         "reason": "j",
-        "face": "5/3, 5/4, 5/5, 6/3, 6/4, 7/3, 7/4, 7/5, 8/4, 8/5",
-        "hand": "R2, R3, R4"
+        "face": "11/5",
+        "hand": "L37, L38"
     },
+    {
+        "name": "larissa",
+        "time": "17.05.2022, 15:58",
+        "activity": "Zuhause, SG, Laptop",
+        "reason": "j",
+        "face": "3/6",
+        "hand": "R2, R3, R4, R18"
+    },
+    {
+        "name": "larissa",
+        "time": "17.05.2022, 15:58",
+        "activity": "Zuhause, SG, Laptop",
+        "reason": "a",
+        "face": "10/12, 10/11, 10/10, 10/9, 11/9",
+        "hand": "L30"
+    },
+    {
+        "name": "celine",
+        "time": "04.06.2022, 09:50",
+        "activity": "Zuhause, ZG, Laptop",
+        "reason": "j",
+        "face": "11/8, 11/9",
+        "hand": "L37"
+    },
+
     {
         "name": "anna",
         "time": "01.06.22 um 10.11",
@@ -63,29 +96,16 @@
         "hand": "R17, R19, R20, R21, R22, R16"
     },
     {
-        "name": "anna",
-        "time": "02.06.22, um 13.45",
+        "name": "larissa",
+        "time": "02.06.2022, 07:27",
         "activity": "Zuhause, SG, Laptop",
-        "reason": "k",
-        "face": "4/9, 4/10, 10/9, 10/10, 11/9, 11/10, 4/11, 6/8, 8/8, 5/9, 11/12",
-        "hand": "L30, L23, L24, L25, L26, L36, L35, R39"
+        "reason": "j",
+        "face": "6/7",
+        "hand": "R3"
     },
-    {
-        "name": "anna",
-        "time": "02.06.22, um 13.46",
-        "activity": "Zuhause, SG, Laptop",
-        "reason": "a",
-        "face": "10/10, 11/10, 9/11, 10/11, 11/11, 10/12, 11/12, 9/12, 9/13, 10/13, 10/14",
-        "hand": "L41, L42, L43, L44, R1, R2, R3, R4, R5, L36, L35, R10"
-    },
-    {
-        "name": "anna",
-        "time": "02.06.22, um 13.47",
-        "activity": "Zuhause, SG, Laptop",
-        "reason": "a",
-        "face": "7/11, 8/10, 9/10, 10/10, 11/10, 10/9, 11/9, 12/9, 7/12, 8/12, 9/12, 10/12, 6/13, 7/13, 8/13, 9/13, 10/13",
-        "hand": "L36, L35, L37, L38, L39, L40, L41, L42, L43, L44, L32, L34"
-    },
+
+
+
     {
         "name": "anna",
         "time": "02.06.22, um 13.48",
@@ -94,21 +114,32 @@
         "face": "5/6, 5/7, 5/8, 5/9, 4/9, 4/10",
         "hand": "R9, R4, R19, R20, R21, R16"
     },
+
+
     {
-        "name": "anna",
-        "time": "02.06.22, um 13.49",
+        "name": "larissa",
+        "time": "17.05.2022, 15:58",
         "activity": "Zuhause, SG, Laptop",
-        "reason": "g",
-        "face": "10/10, 6/10, 7/10, 6/11, 7/11, 6/12, 7/12, 8/12, 6/13, 7/13, 8/13, ",
-        "hand": "R19, R20, R21, R16, R17, R5, R10"
+        "reason": "j",
+        "face": "4/7",
+        "hand": "R4"
     },
     {
-        "name": "anna",
-        "time": "02.06.22, um 13.50",
+        "name": "larissa",
+        "time": "17.05.2022, 15:58",
         "activity": "Zuhause, SG, Laptop",
-        "reason": "g",
-        "face": "8/9, 7/10, 8/10, 7/11, 8/11, 9/11, 6/12, 7/12, 8/12, 9/13, 10/13, 6/14",
-        "hand": "R5, R10, R9, R19"
+        "reason": "j",
+        "face": "3/8",
+        "hand": "R2"
+    },
+
+    {
+        "name": "larissa",
+        "time": "17.05.2022, 15:58",
+        "activity": "Zuhause, SG, Laptop",
+        "reason": "b",
+        "face": "10/11, 10/10, 11/9, 11/10",
+        "hand": "L23, L24, L25, L26"
     },
     {
         "name": "anna",
@@ -117,6 +148,22 @@
         "reason": "j",
         "face": "6/9, 7/9, 8/9, 6/10, 7/10, 8/10",
         "hand": "R5, R10, R3, R8"
+    },
+    {
+        "name": "celine",
+        "time": "20.05.2022, 19:45",
+        "activity": "Zuhause, ZG, Laptop",
+        "reason": "j",
+        "face": "6/10, 7/10",
+        "hand": "L26"
+    },
+    {
+        "name": "celine",
+        "time": "20.05.2022, 19:45",
+        "activity": "Zuhause, ZG, Laptop",
+        "reason": "a",
+        "face": "10/10, 11/10, 10/11, 10/12, 9/13",
+        "hand": "L30"
     },
     {
         "name": "anna",
@@ -158,14 +205,7 @@
         "face": "11/9, 11/10, 10/9, 10/10, 11/10, 10/11, 11/11, 10/12",
         "hand": "R16, R19, R14, R19, R20, R21, R23"
     },
-    {
-        "name": "anna",
-        "time": "02.06.22, um 13.57",
-        "activity": "Zuhause, SG, Laptop",
-        "reason": "a",
-        "face": "11/9, 11/10, 10/9, 10/10, 11/10, 10/11, 11/11, 10/12",
-        "hand": "R16, R19, R14, R19, R20, R21, R23"
-    },
+
     {
         "name": "anna",
         "time": "02.06.22, um 13.57",
@@ -334,22 +374,7 @@
         "face": "9/9, 10/9, 11/9, 12/9, 8/9, 8/10, 9/10, 10/10, 11/10, 6/11, 7/11, 8/11, 9/11, 10/11, 11/11, 6/12, 7/12, 8/12, 9/12, 10/12, 6/13, 7/13, 8/13, 9/13, 10/13",
         "hand": "R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13"
     },
-    {
-        "name": "anna",
-        "time": "22.05.22 um 14:15",
-        "activity": "Zuhause, SG, Laptop",
-        "reason": "a",
-        "face": "9/10, 10/10, 11/10, 9/11, 10/11, 9/12, 10/12, 11/12, 10/13",
-        "hand": "R17, R5, R10, R19, R20, R21, R22, R16"
-    },
-    {
-        "name": "anna",
-        "time": "22.05.22 um 14:16",
-        "activity": "Zuhause, SG, Laptop",
-        "reason": "g",
-        "face": "6/13, 7/13, 8/13, 9/13, 10/13, 5/13, 5/14, 6/14, 7/14, 8/14, 9/14",
-        "hand": "R17, R5, R10, R19, R20, R21, R22, R16"
-    },
+
     {
         "name": "anna",
         "time": "22.05.22 um 14:17",
@@ -381,6 +406,14 @@
         "reason": "j",
         "face": "3/8, 2/8, 3/9, 3/10, 3/11",
         "hand": "R1, R2, R3, R4, R5, R13"
+    },
+    {
+        "name": "anna",
+        "time": "02.06.22, um 13.50",
+        "activity": "Zuhause, SG, Laptop",
+        "reason": "g",
+        "face": "8/9, 7/10, 8/10, 7/11, 8/11, 9/11, 6/12, 7/12, 8/12, 9/13, 10/13, 6/14",
+        "hand": "R5, R10, R9, R19"
     },
     {
         "name": "anna",
@@ -543,6 +576,14 @@
         "hand": "L41, L42, L43, L37, L38, L39"
     },
     {
+        "name": "larissa",
+        "time": "02.06.2022, 07:27",
+        "activity": "Zuhause, SG, Laptop",
+        "reason": "g",
+        "face": "6/10, 5/11, 6/11 5/12, 6/12, 5/13, 6/13, 7/13, 7/12, 8/13, 8/12, 8/11, 9/11, 9/12, 9/10, 10/11, 10/12",
+        "hand": "R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R18"
+    },
+    {
         "name": "anna",
         "time": "22.05.22 um 17:42",
         "activity": "Zuhause, SG, Laptop",
@@ -550,22 +591,7 @@
         "face": "7/14, 8/14, 9/14, 11/14, 8/13, 9/13, 10/13, 11/13, 8/12, 9/12, 10/12, 11/12, 9/11, 10/11, 11/11, 10/11, 11/10, 11/9",
         "hand": "L36, L35, L34, L23, L24, L25, L26, L27, L22"
     },
-    {
-        "name": "anna",
-        "time": "22.05.22 um 17:43",
-        "activity": "Zuhause, SG, Laptop",
-        "reason": "k",
-        "face": "12/7, 12/8, 12/9",
-        "hand": "L36, L37, L38, L39, L40"
-    },
-    {
-        "name": "anna",
-        "time": "22.05.22 um 17:44",
-        "activity": "Zuhause, SG, Laptop",
-        "reason": "a",
-        "face": "7/14, 8/14, 10/14, 8/13, 9/13, 9/12, 10/12, 11/12, 10/11, 11/11, 11/10",
-        "hand": "L36, L35, L34, L23, L24, L25, L26, L27, L22"
-    },
+
     {
         "name": "anna",
         "time": "22.05.22 um 17:45",
@@ -664,6 +690,14 @@
     },
     {
         "name": "anna",
+        "time": "02.06.22, um 13.47",
+        "activity": "Zuhause, SG, Laptop",
+        "reason": "a",
+        "face": "7/11, 8/10, 9/10, 10/10, 11/10, 10/9, 11/9, 12/9, 7/12, 8/12, 9/12, 10/12, 6/13, 7/13, 8/13, 9/13, 10/13",
+        "hand": "L36, L35, L37, L38, L39, L40, L41, L42, L43, L44, L32, L34"
+    },
+    {
+        "name": "anna",
         "time": "23.05.22 um 09.33",
         "activity": "Zuhause, SG, Laptop",
         "reason": "j",
@@ -759,53 +793,22 @@
         "hand": "L36, L26"
     },
     {
-        "name": "larissa",
-        "time": "17.05.2022, 15:58",
+        "name": "anna",
+        "time": "02.06.22, um 13.45",
         "activity": "Zuhause, SG, Laptop",
-        "reason": "j",
-        "face": "4/7",
-        "hand": "R4"
+        "reason": "k",
+        "face": "4/9, 4/10, 10/9, 10/10, 11/9, 11/10, 4/11, 6/8, 8/8, 5/9, 11/12",
+        "hand": "L30, L23, L24, L25, L26, L36, L35, R39"
     },
     {
-        "name": "larissa",
-        "time": "17.05.2022, 15:58",
-        "activity": "Zuhause, SG, Laptop",
-        "reason": "j",
-        "face": "3/8",
-        "hand": "R2"
-    },
-    {
-        "name": "larissa",
-        "time": "17.05.2022, 15:58",
-        "activity": "Zuhause, SG, Laptop",
-        "reason": "j",
-        "face": "11/5",
-        "hand": "L37, L38"
-    },
-    {
-        "name": "larissa",
-        "time": "17.05.2022, 15:58",
-        "activity": "Zuhause, SG, Laptop",
-        "reason": "j",
-        "face": "3/6",
-        "hand": "R2, R3, R4, R18"
-    },
-    {
-        "name": "larissa",
-        "time": "17.05.2022, 15:58",
+        "name": "anna",
+        "time": "02.06.22, um 13.46",
         "activity": "Zuhause, SG, Laptop",
         "reason": "a",
-        "face": "10/12, 10/11, 10/10, 10/9, 11/9",
-        "hand": "L30"
+        "face": "10/10, 11/10, 9/11, 10/11, 11/11, 10/12, 11/12, 9/12, 9/13, 10/13, 10/14",
+        "hand": "L41, L42, L43, L44, R1, R2, R3, R4, R5, L36, L35, R10"
     },
-    {
-        "name": "larissa",
-        "time": "17.05.2022, 15:58",
-        "activity": "Zuhause, SG, Laptop",
-        "reason": "b",
-        "face": "10/11, 10/10, 11/9, 11/10",
-        "hand": "L23, L24, L25, L26"
-    },
+
     {
         "name": "larissa",
         "time": "17.05.2022, 15:58",
@@ -823,6 +826,22 @@
         "hand": "L37, L38, L39, L40"
     },
     {
+        "name": "anna",
+        "time": "22.05.22 um 17:43",
+        "activity": "Zuhause, SG, Laptop",
+        "reason": "k",
+        "face": "12/7, 12/8, 12/9",
+        "hand": "L36, L37, L38, L39, L40"
+    },
+    {
+        "name": "anna",
+        "time": "22.05.22 um 17:44",
+        "activity": "Zuhause, SG, Laptop",
+        "reason": "a",
+        "face": "7/14, 8/14, 10/14, 8/13, 9/13, 9/12, 10/12, 11/12, 10/11, 11/11, 11/10",
+        "hand": "L36, L35, L34, L23, L24, L25, L26, L27, L22"
+    },
+    {
         "name": "larissa",
         "time": "17.05.2022, 15:58",
         "activity": "Zuhause, SG, Laptop",
@@ -838,14 +857,7 @@
         "face": "3/7, 3/8",
         "hand": "L27, L28, L37, L38"
     },
-    {
-        "name": "larissa",
-        "time": "17.05.2022, 15:58",
-        "activity": "Zuhause, SG, Laptop",
-        "reason": "j",
-        "face": "4/6, 5/6",
-        "hand": "R3"
-    },
+
     {
         "name": "larissa",
         "time": "17.05.2022, 15:58",
@@ -1021,6 +1033,14 @@
         "reason": "j",
         "face": "7/13",
         "hand": "R4"
+    },
+    {
+        "name": "anna",
+        "time": "01.06.2022 um 09:55",
+        "activity": "Zuhause, SG, Laptop",
+        "reason": "j",
+        "face": "7/3, 8/2, 9/3, 8/4, 10/3",
+        "hand": "L37, L38, L39"
     },
     {
         "name": "larissa",
@@ -1214,6 +1234,30 @@
         "reason": "j",
         "face": "8/9",
         "hand": "R3"
+    },
+    {
+        "name": "anna",
+        "time": "01.06.22 um 10.08",
+        "activity": "Zuhause, SG, Laptop",
+        "reason": "j",
+        "face": "7/10, 8/9, 6/9, 6/10, 8/10, 9/9, 9/10, 10/8",
+        "hand": "R19, R17, L41, R20, R16"
+    },
+    {
+        "name": "anna",
+        "time": "01.06.22 um 10.09",
+        "activity": "Zuhause, SG, Laptop",
+        "reason": "k",
+        "face": "7/6, 7/7, 7/8",
+        "hand": "L42, L38"
+    },
+    {
+        "name": "anna",
+        "time": "01.06.22 um 10.10",
+        "activity": "Zuhause, SG, Laptop",
+        "reason": "j",
+        "face": "5/3, 5/4, 5/5, 6/3, 6/4, 7/3, 7/4, 7/5, 8/4, 8/5",
+        "hand": "R2, R3, R4"
     },
     {
         "name": "larissa",
@@ -1415,22 +1459,7 @@
         "face": "6/10, 8/10",
         "hand": "L36, R19"
     },
-    {
-        "name": "larissa",
-        "time": "02.06.2022, 07:27",
-        "activity": "Zuhause, SG, Laptop",
-        "reason": "j",
-        "face": "6/7",
-        "hand": "R3"
-    },
-    {
-        "name": "larissa",
-        "time": "02.06.2022, 07:27",
-        "activity": "Zuhause, SG, Laptop",
-        "reason": "g",
-        "face": "6/10, 5/11, 6/11 5/12, 6/12, 5/13, 6/13, 7/13, 7/12, 8/13, 8/12, 8/11, 9/11, 9/12, 9/10, 10/11, 10/12",
-        "hand": "R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R18"
-    },
+
     {
         "name": "larissa",
         "time": "02.06.2022, 07:27",
@@ -1494,6 +1523,22 @@
         "reason": "g",
         "face": "3/5",
         "hand": "R2"
+    },
+    {
+        "name": "celine",
+        "time": "04.06.2022, 10:10",
+        "activity": "Zuhause, ZG, Laptop",
+        "reason": "j",
+        "face": "12/7, 12/8, 11/9",
+        "hand": "L36, L37"
+    },
+    {
+        "name": "celine",
+        "time": "04.06.2022, 10:10",
+        "activity": "Zuhause, ZG, Laptop",
+        "reason": "j",
+        "face": "6/2, 7/2, 7/3, 8/2, 8/3, 9/2, 9/3, 10/3, 10/4, 11/5, 11/4",
+        "hand": "L37, L38, L42"
     },
     {
         "name": "larissa",
@@ -1647,14 +1692,7 @@
         "face": "10/3, 10/2, 11/4, 11/3",
         "hand": "L31"
     },
-    {
-        "name": "larissa",
-        "time": "02.06.2022, 19:53",
-        "activity": "Zuhause, SG, TV",
-        "reason": "j",
-        "face": "8/10",
-        "hand": "L36"
-    },
+
     {
         "name": "larissa",
         "time": "02.06.2022, 19:53",
@@ -1679,22 +1717,7 @@
         "face": "10/9, 11/10",
         "hand": "R3, R4"
     },
-    {
-        "name": "celine",
-        "time": "20.05.2022, 19:45",
-        "activity": "Zuhause, ZG, Laptop",
-        "reason": "j",
-        "face": "6/10, 7/10",
-        "hand": "L26"
-    },
-    {
-        "name": "celine",
-        "time": "20.05.2022, 19:45",
-        "activity": "Zuhause, ZG, Laptop",
-        "reason": "a",
-        "face": "10/10, 11/10, 10/11, 10/12, 9/13",
-        "hand": "L30"
-    },
+
     {
         "name": "celine",
         "time": "20.05.2022, 19:45",
@@ -1735,14 +1758,7 @@
         "face": "7/11, 8/11",
         "hand": "L41"
     },
-    {
-        "name": "celine",
-        "time": "20.05.2022, 19:45",
-        "activity": "Zuhause, ZG, Laptop",
-        "reason": "a",
-        "face": "10/11, 11/11, 9/12, 10/12, 8/13, 9/13, 7/14, 8/14",
-        "hand": "L30, L24, L24, L26"
-    },
+
     {
         "name": "celine",
         "time": "20.05.2022, 19:45",
@@ -1766,6 +1782,14 @@
         "reason": "j",
         "face": "6/10, 7/10, 8/10",
         "hand": "L26, L30"
+    },
+    {
+        "name": "larissa",
+        "time": "17.05.2022, 15:58",
+        "activity": "Zuhause, SG, Laptop",
+        "reason": "j",
+        "face": "4/6, 5/6",
+        "hand": "R3"
     },
     {
         "name": "celine",
@@ -2287,30 +2311,7 @@
         "face": "11/8, 10/9, 11/9, 10/10, 11/10, 10/11, 11/11, 10/12",
         "hand": "L23, L24, L25, L26, L30, L36"
     },
-    {
-        "name": "celine",
-        "time": "04.06.2022, 09:27",
-        "activity": "Zuhause, ZG, Laptop",
-        "reason": "a",
-        "face": "8/13, 8/14, 10/11, 11/11, 10/12, 9/13, 11/10",
-        "hand": "L23, L24, L25, L26, L30"
-    },
-    {
-        "name": "celine",
-        "time": "04.06.2022, 09:27",
-        "activity": "Zuhause, ZG, Laptop",
-        "reason": "a",
-        "face": "10/10, 10/11, 11/11, 10/12, 9/13, 10/13",
-        "hand": "L23, L24, L25, L26, L30"
-    },
-    {
-        "name": "celine",
-        "time": "04.06.2022, 09:50",
-        "activity": "Zuhause, ZG, Laptop",
-        "reason": "j",
-        "face": "11/8, 11/9",
-        "hand": "L37"
-    },
+
     {
         "name": "celine",
         "time": "04.06.2022, 09:50",
@@ -2496,6 +2497,14 @@
         "hand": "L26, L31"
     },
     {
+        "name": "anna",
+        "time": "02.06.22, um 13.57",
+        "activity": "Zuhause, SG, Laptop",
+        "reason": "a",
+        "face": "11/9, 11/10, 10/9, 10/10, 11/10, 10/11, 11/11, 10/12",
+        "hand": "R16, R19, R14, R19, R20, R21, R23"
+    },
+    {
         "name": "celine",
         "time": "04.06.2022, 10:10",
         "activity": "Zuhause, ZG, Laptop",
@@ -2504,13 +2513,22 @@
         "hand": "L31, L32, L33, L34"
     },
     {
-        "name": "celine",
-        "time": "04.06.2022, 10:10",
-        "activity": "Zuhause, ZG, Laptop",
-        "reason": "d",
-        "face": "6/10, 7/11, 7/12",
-        "hand": "L28, L27"
+        "name": "anna",
+        "time": "22.05.22 um 14:15",
+        "activity": "Zuhause, SG, Laptop",
+        "reason": "a",
+        "face": "9/10, 10/10, 11/10, 9/11, 10/11, 9/12, 10/12, 11/12, 10/13",
+        "hand": "R17, R5, R10, R19, R20, R21, R22, R16"
     },
+    {
+        "name": "anna",
+        "time": "22.05.22 um 14:16",
+        "activity": "Zuhause, SG, Laptop",
+        "reason": "g",
+        "face": "6/13, 7/13, 8/13, 9/13, 10/13, 5/13, 5/14, 6/14, 7/14, 8/14, 9/14",
+        "hand": "R17, R5, R10, R19, R20, R21, R22, R16"
+    },
+
     {
         "name": "celine",
         "time": "04.06.2022, 10:10",
@@ -2518,6 +2536,14 @@
         "reason": "d",
         "face": "6/10, 7/10, 7/11",
         "hand": "L30"
+    },
+    {
+        "name": "celine",
+        "time": "20.05.2022, 19:45",
+        "activity": "Zuhause, ZG, Laptop",
+        "reason": "a",
+        "face": "10/11, 11/11, 9/12, 10/12, 8/13, 9/13, 7/14, 8/14",
+        "hand": "L30, L24, L24, L26"
     },
     {
         "name": "celine",
@@ -2535,22 +2561,7 @@
         "face": "7/11, 7/12",
         "hand": "L27"
     },
-    {
-        "name": "celine",
-        "time": "04.06.2022, 10:10",
-        "activity": "Zuhause, ZG, Laptop",
-        "reason": "j",
-        "face": "12/7, 12/8, 11/9",
-        "hand": "L36, L37"
-    },
-    {
-        "name": "celine",
-        "time": "04.06.2022, 10:10",
-        "activity": "Zuhause, ZG, Laptop",
-        "reason": "j",
-        "face": "6/2, 7/2, 7/3, 8/2, 8/3, 9/2, 9/3, 10/3, 10/4, 11/5, 11/4",
-        "hand": "L37, L38, L42"
-    },
+
     {
         "name": "celine",
         "time": "04.06.2022, 10:10",
@@ -2558,5 +2569,13 @@
         "reason": "j",
         "face": "11/9, 11/10",
         "hand": "L37, L38"
+    },
+    {
+        "name": "anna",
+        "time": "02.06.22, um 13.49",
+        "activity": "Zuhause, SG, Laptop",
+        "reason": "g",
+        "face": "10/10, 6/10, 7/10, 6/11, 7/11, 6/12, 7/12, 8/12, 6/13, 7/13, 8/13, ",
+        "hand": "R19, R20, R21, R16, R17, R5, R10"
     }
 ]
