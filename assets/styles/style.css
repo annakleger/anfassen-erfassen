@@ -139,6 +139,7 @@ p {
     margin-left: -4%;
     margin-top: 8%;
     padding: 0px;
+    padding-left: 4%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -146,8 +147,13 @@ p {
 .container_2 {
     left: 25%;
     padding: 0px;
+    padding-top: 2%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+#beruehrungsprofil_celine {
+    padding-left: 5%;
 }
 
 .item {
