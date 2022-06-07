@@ -90,6 +90,7 @@ ul {
 .container {
     display: flex;
     width: 100%;
+    cursor: url('/assets/img/cursor.svg'), auto;
 }
 
 .title {
@@ -1462,6 +1463,7 @@ a:hover {
     background-color: #dddddd;
     color: #893c6f;
     border: solid 2px #893c6f;
+    cursor: pointer;
 }
 
 .button2 {
@@ -1472,6 +1474,7 @@ a:hover {
     background-color: #dddddd;
     color: rgb(95, 37, 255);
     border: solid 2px rgb(95, 37, 255);
+    cursor: pointer;
 }
 
 .button3 {
@@ -1482,6 +1485,7 @@ a:hover {
     background-color: #dddddd;
     color: rgb(255, 78, 193);
     border: solid 2px rgb(255, 78, 193);
+    cursor: pointer;
 }
 
 .button4 {
@@ -1492,6 +1496,7 @@ a:hover {
     background-color: #dddddd;
     color: rgb(0, 215, 140);
     border: solid 2px rgb(0, 215, 140);
+    cursor: pointer;
 }
 
 .button5 {
@@ -1502,6 +1507,7 @@ a:hover {
     background-color: #dddddd;
     color: #893c6f;
     border: solid 2px #893c6f;
+    cursor: pointer;
 }
 
 
