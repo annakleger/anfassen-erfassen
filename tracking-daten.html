@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tracking-Daten</title>
-    <link rel="stylesheet" href="/assets/styles/style-Projektbeschreibung.css">
+    <link rel="stylesheet" href="/assets/styles/style-tracking.css">
 </head>
 
 <body>
@@ -15,52 +15,66 @@
 
     <div class="header">
         <div class="title">
-            <h1><span style="font-family:'Retalic_30_Lt'" class="main_title"><a href="index.html" id="anfassen_main">Anfassen</a></span> &#160;<a href="index.html" id="erfassen_main">Erfassen</a>
+            <h1><span style="font-family:'Retalic_30_Lt'" class="main_title"><a href="index.html" id="anfassen_main">Anfassen</a></span> &#160;<br><a href="index.html" id="erfassen_main">Erfassen</a>
             </h1>
-            <div class="legende">
+        </div>
 
-                <p>R/L = dominierende Hand <br> ✺ = Anzahl bewusste Berührungen <br> Name, Wochentag, Datum, Zeit <br> Ort, Aktivität, Dauer</p>
+        <div class="menu">
+            <a href="Projektbeschreibung.html">Projektbeschreibung</a>
+            <a href="gestaltungsprozess.html">Gestaltungsprozess</a>
+            <a href="#" id="current_link">Tracking-Daten</a>
+            <a href="videos.html">Tracking-Videos</a>
 
-                <div class="score">
-                </div>
-                <div id="scoreprogress1">
-                    <div id="scorebar1"></div>
-                </div>
-                <button onclick="scoretrackings()" class="button1">↺ TOTAL TRACKINGS</button>
-                <div id="scoreprogress5">
-                    <div id="scorebar5"></div>
-                </div>
-                <button onclick="scorebewusst()" class="button5">↺ TOTAL BEWUSSTE BERÜHRUNGEN</button>
-                <div id="scoreprogress2">
-                    <div id="scorebar2"></div>
-                </div>
-                <button onclick="scoreaufstützen()" class="button2">↺ TOTAL AUFSTÜTZEN</button>
-                <div id="scoreprogress3">
-                    <div id="scorebar3"></div>
-                </div>
-                <button onclick="scorejucken()" class="button3">↺ TOTAL JUCKEN</button>
-                <div id="scoreprogress4">
-                    <div id="scorebar4"></div>
-                </div>
-                <button onclick="scoregewohnheit()" class="button4">↺ TOTAL GEWOHNHEIT</button>
+        </div>
+
+    </div>
 
 
-                <p>Dominierender Berührungsgrund =</p>
+    <div class="container">
 
-                <div class="reasoncircles">
+        <div class="legende">
 
-                    <div class="reason1">
-                        <h5>Aufstützen</h5>
-                    </div>
-                    <div class="reason2">
-                        <h5>Jucken</h5>
-                    </div>
-                    <div class="reason3">
-                        <h5>Gewohnheit</h5>
-                        <div class="reason3box">
-                            <div class="reason3text">
-                                <h5>Gewohnheit</h5>
-                            </div>
+            <p>R/L = dominierende Hand <br> ✺ = Anzahl bewusste Berührungen <br> Name, Wochentag, Datum, Zeit <br> Ort, Aktivität, Dauer</p>
+
+            <div class="score">
+            </div>
+            <div id="scoreprogress1">
+                <div id="scorebar1"></div>
+            </div>
+            <button onclick="scoretrackings()" class="button1">↺ TOTAL TRACKINGS</button>
+            <div id="scoreprogress5">
+                <div id="scorebar5"></div>
+            </div>
+            <button onclick="scorebewusst()" class="button5">↺ TOTAL BEWUSSTE BERÜHRUNGEN</button>
+            <div id="scoreprogress2">
+                <div id="scorebar2"></div>
+            </div>
+            <button onclick="scoreaufstützen()" class="button2">↺ TOTAL AUFSTÜTZEN</button>
+            <div id="scoreprogress3">
+                <div id="scorebar3"></div>
+            </div>
+            <button onclick="scorejucken()" class="button3">↺ TOTAL JUCKEN</button>
+            <div id="scoreprogress4">
+                <div id="scorebar4"></div>
+            </div>
+            <button onclick="scoregewohnheit()" class="button4">↺ TOTAL GEWOHNHEIT</button>
+
+
+            <p>Dominierender Berührungsgrund =</p>
+
+            <div class="reasoncircles">
+
+                <div class="reason1">
+                    <h5>Aufstützen</h5>
+                </div>
+                <div class="reason2">
+                    <h5>Jucken</h5>
+                </div>
+                <div class="reason3">
+                    <h5>Gewohnheit</h5>
+                    <div class="reason3box">
+                        <div class="reason3text">
+                            <h5>Gewohnheit</h5>
                         </div>
                     </div>
                 </div>
@@ -68,23 +82,25 @@
         </div>
 
 
-        <div class="menu">
-            <a href="Projektbeschreibung.html">Projektbeschreibung</a>
-            <a href="gestaltungsprozess.html">Gestaltungsprozess</a>
-            <a href="#" id="current_link">Tracking-Daten</a>
-            <a href="videos.html">Tracking-Videos</a>
-        </div>
 
+
+        <div class="content"></div>
 
         <div class="rawdata">
+
+
             <div class="j1">
                 <p>L<br>✺<br>Larissa, Dienstag, 17. Mai 2022, 15:58 Uhr<br>Zuhause SG, Laptop, 10 Minuten
                 </p>
             </div>
+
+
             <div class="a1">
                 <p>L<br>✺ ✺<br>Larissa, Dienstag, 17. Mai 2022, 16:46 Uhr<br>Zuhause SG, Laptop, 10 Minuten
                 </p>
             </div>
+
+
             <div class="a2">
                 <p>L<br>-<br>Céline, Freitag, 20. Mai 2022, 19:45 Uhr<br>Zuhause ZG, Laptop, 10 Minuten
                 </p>
@@ -252,10 +268,12 @@
                 <p>L<br>-<br>Anna, Samstag, 4. Juni 2022, 22:02 Uhr<br>Zuhause SG, Laptop, 10 Minuten
                 </p>
             </div>
-            &nbsp;&nbsp;
+
 
 
         </div>
+    </div>
+    </div>
 
 
 
@@ -263,7 +281,7 @@
 
 
 
-        <script src="/assets/js/rawdata.js"></script>
+    <script src="/assets/js/rawdata.js"></script>
 
 </body>
 
