@@ -138,15 +138,16 @@ function draw() {
     //grid()
 
     //mit selector
-    for (let i = 0; i < counter; i++)
-        if (test_data[counter].name == select) {
-            show_gesture(counter)
-        }
 
-        //ohne selector
-        // for (let i = 0; i < counter; i++) {
-        //     show_gesture(counter)
-        // }
+    //for (let i = 0 + start; i < counter + start; i++) kommentar HZ: achtung, hier braucht es keinen Loop!
+    if (test_data[counter].name == select) {
+        show_gesture(counter)
+    }
+
+    //ohne selector
+    // for (let i = 0; i < counter; i++) {
+    //     show_gesture(counter)
+    // }
 
 
     if (counter < test_data.length) {
@@ -201,13 +202,13 @@ function show_gesture(value) {
                     let bild;
                     let welcheHand;
                     for (let h = 0; h < hand.length; h++) {
-                        console.log(hand[h]);
+                        //console.log(hand[h]);
                         const hands = hand[h].split(",")
                         for (const el of hands) {
-                            const parts = el.split("")
-                            welcheHand = parts[0]
-                            bildnummer = parts[1]
-
+                            //const parts = el.split("")
+                            welcheHand = el.substr(0, 1); //kommentar HZ: hier ueber substring arbeiten, nicht split
+                            bildnummer = el.substr(1, el.length) //kommentar HZ: hier ueber substring arbeiten, nicht split, sonst kommt bloss die erste Zahl raus
+                                //console.log(bildnummer - 1)
                             if (bildnummer == undefined) {
                                 continue
                             }
