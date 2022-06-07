@@ -271,7 +271,7 @@ a:hover {
 }
 
 .reason1 {
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
     width: 170px;
     height: 10px;
     border-radius: 25px;
@@ -281,15 +281,15 @@ a:hover {
 
 .reason1:hover {
     opacity: 100%;
-    text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+    text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(158, 210, 181, 0.75), 0px 0 0 rgba(224, 112, 196, 0.75);
     animation: aufstützen 3s infinite;
     animation-duration: 3s;
     transition: 0s;
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
 }
 
 .reason2 {
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     width: 115px;
     height: 10px;
     border-radius: 25px;
@@ -303,11 +303,11 @@ a:hover {
     transform: translateX(0%) translateY(0%);
     animation: jucken 1s alternate-reverse infinite;
     opacity: 100%;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
 }
 
 .reason3 {
-    background-color: rgb(0, 215, 140);
+    background-color: #78abb2;
     width: 113px;
     height: 10px;
     border-radius: 25px;
@@ -342,7 +342,7 @@ a:hover {
     position: absolute;
     width: 110px;
     height: 200px;
-    background: linear-gradient(rgb(125, 255, 209), rgb(187, 255, 151));
+    background: linear-gradient(#9ed2b5, #6485a2);
     animation: gewohnheit 3s linear infinite;
 }
 
@@ -385,7 +385,7 @@ a:hover {
 
 .j1 {
     margin-bottom: 150px;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -401,13 +401,13 @@ a:hover {
     transform: translateX(0%) translateY(0%);
     animation: jucken 1s alternate-reverse infinite;
     opacity: 100%;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     color: #050d3c;
 }
 
 .j2 {
     margin-bottom: 150px;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -424,13 +424,13 @@ a:hover {
     transform: translateX(0%) translateY(0%);
     animation: jucken 1s alternate-reverse infinite;
     opacity: 100%;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     color: #050d3c;
 }
 
 .j3 {
     margin-bottom: 150px;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -447,13 +447,13 @@ a:hover {
     transform: translateX(0%) translateY(0%);
     animation: jucken 1s alternate-reverse infinite;
     opacity: 100%;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     color: #050d3c;
 }
 
 .j4 {
     margin-bottom: 150px;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -470,13 +470,13 @@ a:hover {
     transform: translateX(0%) translateY(0%);
     animation: jucken 1s alternate-reverse infinite;
     opacity: 100%;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     color: #050d3c;
 }
 
 .j5 {
     margin-bottom: 150px;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -493,13 +493,13 @@ a:hover {
     transform: translateX(0%) translateY(0%);
     animation: jucken 1s alternate-reverse infinite;
     opacity: 100%;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     color: #050d3c;
 }
 
 .j6 {
     margin-bottom: 150px;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -516,13 +516,13 @@ a:hover {
     transform: translateX(0%) translateY(0%);
     animation: jucken 1s alternate-reverse infinite;
     opacity: 100%;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     color: #050d3c;
 }
 
 .j7 {
     margin-bottom: 150px;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -539,13 +539,13 @@ a:hover {
     transform: translateX(0%) translateY(0%);
     animation: jucken 1s alternate-reverse infinite;
     opacity: 100%;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     color: #050d3c;
 }
 
 .j8 {
     margin-bottom: 150px;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -562,13 +562,13 @@ a:hover {
     transform: translateX(0%) translateY(0%);
     animation: jucken 1s alternate-reverse infinite;
     opacity: 100%;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     color: #050d3c;
 }
 
 .j9 {
     margin-bottom: 150px;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -585,13 +585,13 @@ a:hover {
     transform: translateX(0%) translateY(0%);
     animation: jucken 1s alternate-reverse infinite;
     opacity: 100%;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     color: #050d3c;
 }
 
 .j10 {
     margin-bottom: 150px;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -608,13 +608,13 @@ a:hover {
     transform: translateX(0%) translateY(0%);
     animation: jucken 1s alternate-reverse infinite;
     opacity: 100%;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     color: #050d3c;
 }
 
 .j11 {
     margin-bottom: 150px;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -631,13 +631,13 @@ a:hover {
     transform: translateX(0%) translateY(0%);
     animation: jucken 1s alternate-reverse infinite;
     opacity: 100%;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     color: #050d3c;
 }
 
 .j12 {
     margin-bottom: 150px;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -654,13 +654,13 @@ a:hover {
     transform: translateX(0%) translateY(0%);
     animation: jucken 1s alternate-reverse infinite;
     opacity: 100%;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     color: #050d3c;
 }
 
 .j13 {
     margin-bottom: 150px;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -677,12 +677,12 @@ a:hover {
     transform: translateX(0%) translateY(0%);
     animation: jucken 1s alternate-reverse infinite;
     opacity: 100%;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     color: #050d3c;
 }
 
 .a1 {
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -694,15 +694,15 @@ a:hover {
 
 .a1:hover {
     opacity: 100%;
-    text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+    text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(158, 210, 181, 0.75), 0px 0 0 rgba(224, 112, 196, 0.75);
     animation: aufstützen 3s ease-in-out infinite;
     animation-duration: 3s;
     transition: 0s;
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
 }
 
 .a2 {
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -714,15 +714,15 @@ a:hover {
 
 .a2:hover {
     opacity: 100%;
-    text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+    text-shadow: 0px 0px 0 rgba(#050d3c, 0.75), 0px 0px 0 rgba(158, 210, 181, 0.75), 0px 0 0 rgba(224, 112, 196, 0.75);
     animation: aufstützen 3s ease-in-out infinite;
     animation-duration: 3s;
     transition: 0s;
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
 }
 
 .a3 {
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -734,15 +734,15 @@ a:hover {
 
 .a3:hover {
     opacity: 100%;
-    text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+    text-shadow: 0px 0px 0 rgba(#050d3c, 0.75), 0px 0px 0 rgba(158, 210, 181, 0.75), 0px 0 0 rgba(224, 112, 196, 0.75);
     animation: aufstützen 3s ease-in-out infinite;
     animation-duration: 3s;
     transition: 0s;
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
 }
 
 .a4 {
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -754,15 +754,15 @@ a:hover {
 
 .a4:hover {
     opacity: 100%;
-    text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+    text-shadow: 0px 0px 0 rgba(#050d3c, 0.75), 0px 0px 0 rgba(158, 210, 181, 0.75), 0px 0 0 rgba(224, 112, 196, 0.75);
     animation: aufstützen 3s ease-in-out infinite;
     animation-duration: 3s;
     transition: 0s;
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
 }
 
 .a5 {
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -774,15 +774,15 @@ a:hover {
 
 .a5:hover {
     opacity: 100%;
-    text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+    text-shadow: 0px 0px 0 rgba(#050d3c, 0.75), 0px 0px 0 rgba(158, 210, 181, 0.75), 0px 0 0 rgba(224, 112, 196, 0.75);
     animation: aufstützen 3s ease-in-out infinite;
     animation-duration: 3s;
     transition: 0s;
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
 }
 
 .a6 {
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -794,15 +794,15 @@ a:hover {
 
 .a6:hover {
     opacity: 100%;
-    text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+    text-shadow: 0px 0px 0 rgba(#050d3c, 0.75), 0px 0px 0 rgba(158, 210, 181, 0.75), 0px 0 0 rgba(224, 112, 196, 0.75);
     animation: aufstützen 3s ease-in-out infinite;
     animation-duration: 3s;
     transition: 0s;
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
 }
 
 .a7 {
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -814,15 +814,15 @@ a:hover {
 
 .a7:hover {
     opacity: 100%;
-    text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+    text-shadow: 0px 0px 0 rgba(#050d3c, 0.75), 0px 0px 0 rgba(158, 210, 181, 0.75), 0px 0 0 rgba(224, 112, 196, 0.75);
     animation: aufstützen 3s ease-in-out infinite;
     animation-duration: 3s;
     transition: 0s;
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
 }
 
 .a8 {
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -834,15 +834,15 @@ a:hover {
 
 .a8:hover {
     opacity: 100%;
-    text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+    text-shadow: 0px 0px 0 rgba(#050d3c, 0.75), 0px 0px 0 rgba(158, 210, 181, 0.75), 0px 0 0 rgba(224, 112, 196, 0.75);
     animation: aufstützen 3s ease-in-out infinite;
     animation-duration: 3s;
     transition: 0s;
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
 }
 
 .a9 {
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -854,15 +854,15 @@ a:hover {
 
 .a9:hover {
     opacity: 100%;
-    text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+    text-shadow: 0px 0px 0 rgba(#050d3c, 0.75), 0px 0px 0 rgba(158, 210, 181, 0.75), 0px 0 0 rgba(224, 112, 196, 0.75);
     animation: aufstützen 3s ease-in-out infinite;
     animation-duration: 3s;
     transition: 0s;
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
 }
 
 .a10 {
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -874,15 +874,15 @@ a:hover {
 
 .a10:hover {
     opacity: 100%;
-    text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+    text-shadow: 0px 0px 0 rgba(#050d3c, 0.75), 0px 0px 0 rgba(158, 210, 181, 0.75), 0px 0 0 rgba(224, 112, 196, 0.75);
     animation: aufstützen 3s ease-in-out infinite;
     animation-duration: 3s;
     transition: 0s;
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
 }
 
 .a11 {
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -894,15 +894,15 @@ a:hover {
 
 .a11:hover {
     opacity: 100%;
-    text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+    text-shadow: 0px 0px 0 rgba(#050d3c, 0.75), 0px 0px 0 rgba(158, 210, 181, 0.75), 0px 0 0 rgba(224, 112, 196, 0.75);
     animation: aufstützen 3s ease-in-out infinite;
     animation-duration: 3s;
     transition: 0s;
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
 }
 
 .a12 {
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -914,15 +914,15 @@ a:hover {
 
 .a12:hover {
     opacity: 100%;
-    text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+    text-shadow: 0px 0px 0 rgba(#050d3c, 0.75), 0px 0px 0 rgba(158, 210, 181, 0.75), 0px 0 0 rgba(224, 112, 196, 0.75);
     animation: aufstützen 3s ease-in-out infinite;
     animation-duration: 3s;
     transition: 0s;
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
 }
 
 .a13 {
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -934,15 +934,15 @@ a:hover {
 
 .a13:hover {
     opacity: 100%;
-    text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+    text-shadow: 0px 0px 0 rgba(#050d3c, 0.75), 0px 0px 0 rgba(158, 210, 181, 0.75), 0px 0 0 rgba(224, 112, 196, 0.75);
     animation: aufstützen 3s ease-in-out infinite;
     animation-duration: 3s;
     transition: 0s;
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
 }
 
 .a14 {
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -954,15 +954,15 @@ a:hover {
 
 .a14:hover {
     opacity: 100%;
-    text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+    text-shadow: 0px 0px 0 rgba(#050d3c, 0.75), 0px 0px 0 rgba(158, 210, 181, 0.75), 0px 0 0 rgba(224, 112, 196, 0.75);
     animation: aufstützen 3s ease-in-out infinite;
     animation-duration: 3s;
     transition: 0s;
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
 }
 
 .a15 {
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -974,15 +974,15 @@ a:hover {
 
 .a15:hover {
     opacity: 100%;
-    text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+    text-shadow: 0px 0px 0 rgba(#050d3c, 0.75), 0px 0px 0 rgba(158, 210, 181, 0.75), 0px 0 0 rgba(224, 112, 196, 0.75);
     animation: aufstützen 3s ease-in-out infinite;
     animation-duration: 3s;
     transition: 0s;
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
 }
 
 .a16 {
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -994,15 +994,15 @@ a:hover {
 
 .a16:hover {
     opacity: 100%;
-    text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+    text-shadow: 0px 0px 0 rgba(#050d3c, 0.75), 0px 0px 0 rgba(158, 210, 181, 0.75), 0px 0 0 rgba(224, 112, 196, 0.75);
     animation: aufstützen 3s ease-in-out infinite;
     animation-duration: 3s;
     transition: 0s;
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
 }
 
 .a17 {
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -1014,15 +1014,15 @@ a:hover {
 
 .a17:hover {
     opacity: 100%;
-    text-shadow: 0px 0px 0 rgba(5, 13, 60, 0.75), 0px 0px 0 rgba(39, 255, 1, 0.75), 0px 0 0 rgba(255, 0, 144, 0.75);
+    text-shadow: 0px 0px 0 rgba(#050d3c, 0.75), 0px 0px 0 rgba(158, 210, 181, 0.75), 0px 0 0 rgba(224, 112, 196, 0.75);
     animation: aufstützen 3s ease-in-out infinite;
     animation-duration: 3s;
     transition: 0s;
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
 }
 
 .g1 {
-    background-color: rgb(0, 215, 140);
+    background-color: #78abb2;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -1034,7 +1034,7 @@ a:hover {
 
 .g1:hover {
     opacity: 100%;
-    color: rgb(0, 215, 140);
+    color: #78abb2;
 }
 
 .g1text {
@@ -1055,7 +1055,7 @@ a:hover {
 }
 
 .g2 {
-    background-color: rgb(0, 215, 140);
+    background-color: #78abb2;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -1067,7 +1067,7 @@ a:hover {
 
 .g2:hover {
     opacity: 100%;
-    color: rgb(0, 215, 140);
+    color: #78abb2;
 }
 
 .g2text {
@@ -1089,7 +1089,7 @@ a:hover {
 }
 
 .g3 {
-    background-color: rgb(0, 215, 140);
+    background-color: #78abb2;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -1101,7 +1101,7 @@ a:hover {
 
 .g3:hover {
     opacity: 100%;
-    color: rgb(0, 215, 140);
+    color: #78abb2;
 }
 
 .g3text {
@@ -1134,7 +1134,7 @@ a:hover {
 
 .g4:hover {
     opacity: 100%;
-    color: rgb(0, 215, 140);
+    color: #78abb2;
 }
 
 .g4text {
@@ -1156,7 +1156,7 @@ a:hover {
 }
 
 .g5 {
-    background-color: rgb(0, 215, 140);
+    background-color: #78abb2;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -1168,7 +1168,7 @@ a:hover {
 
 .g5:hover {
     opacity: 100%;
-    color: rgb(0, 215, 140);
+    color: #78abb2;
 }
 
 .g5text {
@@ -1190,7 +1190,7 @@ a:hover {
 }
 
 .g6 {
-    background-color: rgb(0, 215, 140);
+    background-color: #78abb2;
     width: 500px;
     height: 10px;
     border-radius: 25px;
@@ -1202,7 +1202,7 @@ a:hover {
 
 .g6:hover {
     opacity: 100%;
-    color: rgb(0, 215, 140);
+    color: #78abb2;
 }
 
 .g6text {
@@ -1261,22 +1261,22 @@ a:hover {
 
 @keyframes aufstützen {
     0% {
-        text-shadow: 2px 0px 0 rgba(5, 13, 60, 0.75), -1px -2px 0 rgba(39, 255, 1, 0.75), 1px 2px 0 rgba(255, 0, 144, 0.75);
+        text-shadow: 2px 0px 0 rgba(5, 13, 60, 0.75), -1px -2px 0 rgba(158, 210, 181, 0.75), 1px 2px 0 rgb(224, 112, 196, 0.75);
     }
     20% {
-        text-shadow: -2px 0px 0 rgba(5, 13, 60, 0.75), 1px 2px 0 rgba(39, 255, 1, 0.75), -1px -2px 0 rgba(255, 0, 144, 0.75);
+        text-shadow: -2px 0px 0 rgba(5, 13, 60, 0.75), 1px 2px 0 rgba(158, 210, 181, 0.75), -1px -2px 0 rgb(224, 112, 196, 0.75);
     }
     40% {
-        text-shadow: 2px 0px 0 rgba(5, 13, 60, 0.75), -1px -2px 0 rgba(39, 255, 1, 0.75), 1px 2px 0 rgba(255, 0, 144, 0.75);
+        text-shadow: 2px 0px 0 rgba(5, 13, 60, 0.75), -1px -2px 0 rgba(158, 210, 181, 0.75), 1px 2px 0 rgb(224, 112, 196, 0.75);
     }
     60% {
-        text-shadow: -2px 0px 0 rgba(5, 13, 60, 0.75), 1px 2px 0 rgba(39, 255, 1, 0.75), -1px -2px 0 rgba(255, 0, 144, 0.75);
+        text-shadow: -2px 0px 0 rgba(5, 13, 60, 0.75), 1px 2px 0 rgba(158, 210, 181, 0.75), -1px -2px 0 rgb(224, 112, 196, 0.75);
     }
     80% {
-        text-shadow: 2px 0px 0 rgba(5, 13, 60, 0.75), -1px -2px 0 rgba(39, 255, 1, 0.75), 1px 2px 0 rgba(255, 0, 144, 0.75);
+        text-shadow: 2px 0px 0 rgba(5, 13, 60, 0.75), -1px -2px 0 rgba(158, 210, 181, 0.75), 1px 2px 0 rgb(224, 112, 196, 0.75);
     }
     100% {
-        text-shadow: -2px 0px 0 rgba(5, 13, 60, 0.75), 1px 2px 0 rgba(39, 255, 1, 0.75), -1px -2px 0 rgba(255, 0, 144, 0.75);
+        text-shadow: -2px 0px 0 rgba(5, 13, 60, 0.75), 1px 2px 0 rgba(158, 210, 181, 0.75), -1px -2px 0 rgb(224, 112, 196, 0.75);
     }
 }
 
@@ -1333,7 +1333,7 @@ a:hover {
     position: absolute;
     width: 600px;
     height: 370px;
-    background: linear-gradient(rgb(125, 255, 209), rgb(187, 255, 151));
+    background: linear-gradient(#9ed2b5, #6485a2);
     animation: gewohnheit 5s linear infinite;
 }
 
@@ -1345,7 +1345,7 @@ a:hover {
 }
 
 .gborder {
-    background-color: rgb(0, 215, 140);
+    background-color: #78abb2;
     height: 10px;
     border-radius: 25px;
     opacity: 100%;
@@ -1355,12 +1355,12 @@ a:hover {
 
 @keyframes stayingborder {
     0% {
-        background-color: rgb(0, 215, 140);
+        background-color: #78abb2;
         height: 10px;
         opacity: 100%;
     }
     100% {
-        background-color: rgb(0, 215, 140);
+        background-color: #78abb2;
         height: 10px;
         opacity: 100%;
     }
@@ -1398,7 +1398,7 @@ a:hover {
     width: 1%;
     height: 15px;
     border-radius: 25px;
-    background-color: rgb(95, 37, 255);
+    background-color: #2c4ee2;
     text-align: center;
     line-height: 15px;
     color: #dddddd;
@@ -1415,7 +1415,7 @@ a:hover {
     width: 1%;
     height: 15px;
     border-radius: 25px;
-    background-color: rgb(255, 78, 193);
+    background-color: #e070c4;
     text-align: center;
     line-height: 15px;
     color: #dddddd;
@@ -1432,7 +1432,7 @@ a:hover {
     width: 1%;
     height: 15px;
     border-radius: 25px;
-    background-color: rgb(0, 215, 140);
+    background-color: #78abb2;
     text-align: center;
     line-height: 15px;
     color: #dddddd;
@@ -1472,8 +1472,8 @@ a:hover {
     font-weight: 300;
     border-radius: 25px;
     background-color: #dddddd;
-    color: rgb(95, 37, 255);
-    border: solid 2px rgb(95, 37, 255);
+    color: #2c4ee2;
+    border: solid 2px #2c4ee2;
     cursor: pointer;
 }
 
@@ -1483,8 +1483,8 @@ a:hover {
     font-weight: 300;
     border-radius: 25px;
     background-color: #dddddd;
-    color: rgb(255, 78, 193);
-    border: solid 2px rgb(255, 78, 193);
+    color: #e070c4;
+    border: solid 2px #e070c4;
     cursor: pointer;
 }
 
@@ -1494,8 +1494,8 @@ a:hover {
     font-weight: 300;
     border-radius: 25px;
     background-color: #dddddd;
-    color: rgb(0, 215, 140);
-    border: solid 2px rgb(0, 215, 140);
+    color: #78abb2;
+    border: solid 2px#78abb2;
     cursor: pointer;
 }
 
