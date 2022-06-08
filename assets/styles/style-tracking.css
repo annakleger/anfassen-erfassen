@@ -1061,7 +1061,7 @@ a:hover {
     height: 10px;
     border-radius: 25px;
     opacity: 50%;
-    margin-top: 35%;
+    margin-top: 37%;
     cursor: pointer;
     margin-left: 20px;
 }
@@ -1076,7 +1076,7 @@ a:hover {
     position: absolute;
     justify-content: center;
     align-items: center;
-    opacity: 35%;
+    opacity: 29%;
     z-index: 50;
     color: transparent;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
