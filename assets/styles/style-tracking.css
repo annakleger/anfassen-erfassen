@@ -272,7 +272,7 @@ a:hover {
 
 .reason1 {
     background-color: #2c4ee2;
-    width: 170px;
+    width: 132px;
     height: 10px;
     border-radius: 25px;
     margin-left: 0;
@@ -290,7 +290,7 @@ a:hover {
 
 .reason2 {
     background-color: #e070c4;
-    width: 115px;
+    width: 95px;
     height: 10px;
     border-radius: 25px;
     margin-left: 15%;
@@ -308,7 +308,7 @@ a:hover {
 
 .reason3 {
     background-color: #78abb2;
-    width: 113px;
+    width: 150px;
     height: 10px;
     border-radius: 25px;
     margin-left: 15%;
@@ -322,11 +322,12 @@ a:hover {
 
 .reason3box {
     position: relative;
-    width: 140px;
-    height: 45px;
+    width: 180px;
+    height: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 22px;
     overflow: hidden;
     border-radius: 5px;
     background: rgba(255, 255, 255, 1);
@@ -349,7 +350,7 @@ a:hover {
 .reason3box::after {
     content: '';
     position: absolute;
-    inset: 10px;
+    inset: 12px;
     background: rgba(255, 255, 255, 1);
 }
 
@@ -386,7 +387,7 @@ a:hover {
 .j1 {
     margin-bottom: 150px;
     background-color: #e070c4;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
@@ -408,7 +409,7 @@ a:hover {
 .j2 {
     margin-bottom: 150px;
     background-color: #e070c4;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
@@ -431,11 +432,11 @@ a:hover {
 .j3 {
     margin-bottom: 150px;
     background-color: #e070c4;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
-    margin-top: 19%;
+    margin-top: 20%;
     margin-left: 20px;
     cursor: pointer;
 }
@@ -454,11 +455,11 @@ a:hover {
 .j4 {
     margin-bottom: 150px;
     background-color: #e070c4;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
-    margin-top: 4%;
+    margin-top: 8%;
     margin-left: 20px;
     cursor: pointer;
 }
@@ -477,7 +478,7 @@ a:hover {
 .j5 {
     margin-bottom: 150px;
     background-color: #e070c4;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
@@ -500,11 +501,11 @@ a:hover {
 .j6 {
     margin-bottom: 150px;
     background-color: #e070c4;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
-    margin-top: 3%;
+    margin-top: 7%;
     margin-left: 20px;
     cursor: pointer;
 }
@@ -523,7 +524,7 @@ a:hover {
 .j7 {
     margin-bottom: 150px;
     background-color: #e070c4;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
@@ -546,11 +547,11 @@ a:hover {
 .j8 {
     margin-bottom: 150px;
     background-color: #e070c4;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
-    margin-top: 3%;
+    margin-top: 9%;
     margin-left: 20px;
     cursor: pointer;
 }
@@ -569,11 +570,11 @@ a:hover {
 .j9 {
     margin-bottom: 150px;
     background-color: #e070c4;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
-    margin-top: 19%;
+    margin-top: 20%;
     margin-left: 20px;
     cursor: pointer;
 }
@@ -592,11 +593,11 @@ a:hover {
 .j10 {
     margin-bottom: 150px;
     background-color: #e070c4;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
-    margin-top: 20%;
+    margin-top: 21%;
     margin-left: 20px;
     cursor: pointer;
 }
@@ -615,7 +616,7 @@ a:hover {
 .j11 {
     margin-bottom: 150px;
     background-color: #e070c4;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
@@ -638,7 +639,7 @@ a:hover {
 .j12 {
     margin-bottom: 150px;
     background-color: #e070c4;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
@@ -661,11 +662,11 @@ a:hover {
 .j13 {
     margin-bottom: 150px;
     background-color: #e070c4;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
-    margin-top: 4%;
+    margin-top: 7%;
     margin-left: 20px;
     cursor: pointer;
 }
@@ -683,11 +684,11 @@ a:hover {
 
 .a1 {
     background-color: #2c4ee2;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
-    margin-top: 4%;
+    margin-top: 8%;
     margin-left: 20px;
     cursor: pointer;
 }
@@ -703,7 +704,7 @@ a:hover {
 
 .a2 {
     background-color: #2c4ee2;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
@@ -723,7 +724,7 @@ a:hover {
 
 .a3 {
     background-color: #2c4ee2;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
@@ -743,7 +744,7 @@ a:hover {
 
 .a4 {
     background-color: #2c4ee2;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
@@ -763,11 +764,11 @@ a:hover {
 
 .a5 {
     background-color: #2c4ee2;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
-    margin-top: 5%;
+    margin-top: 9%;
     margin-left: 20px;
     cursor: pointer;
 }
@@ -783,7 +784,7 @@ a:hover {
 
 .a6 {
     background-color: #2c4ee2;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
@@ -803,7 +804,7 @@ a:hover {
 
 .a7 {
     background-color: #2c4ee2;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
@@ -823,7 +824,7 @@ a:hover {
 
 .a8 {
     background-color: #2c4ee2;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
@@ -843,7 +844,7 @@ a:hover {
 
 .a9 {
     background-color: #2c4ee2;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
@@ -863,7 +864,7 @@ a:hover {
 
 .a10 {
     background-color: #2c4ee2;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
@@ -883,11 +884,11 @@ a:hover {
 
 .a11 {
     background-color: #2c4ee2;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
-    margin-top: 3%;
+    margin-top: 9%;
     margin-left: 20px;
     cursor: pointer;
 }
@@ -903,11 +904,11 @@ a:hover {
 
 .a12 {
     background-color: #2c4ee2;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
-    margin-top: 4%;
+    margin-top: 9%;
     margin-left: 20px;
     cursor: pointer;
 }
@@ -923,11 +924,11 @@ a:hover {
 
 .a13 {
     background-color: #2c4ee2;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
-    margin-top: 3%;
+    margin-top: 9%;
     margin-left: 20px;
     cursor: pointer;
 }
@@ -943,7 +944,7 @@ a:hover {
 
 .a14 {
     background-color: #2c4ee2;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
@@ -963,7 +964,7 @@ a:hover {
 
 .a15 {
     background-color: #2c4ee2;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
@@ -983,7 +984,7 @@ a:hover {
 
 .a16 {
     background-color: #2c4ee2;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
@@ -1003,7 +1004,7 @@ a:hover {
 
 .a17 {
     background-color: #2c4ee2;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 20%;
@@ -1023,11 +1024,11 @@ a:hover {
 
 .g1 {
     background-color: #78abb2;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 50%;
-    margin-top: 11%;
+    margin-top: 14%;
     margin-left: 20px;
     cursor: pointer;
 }
@@ -1056,11 +1057,11 @@ a:hover {
 
 .g2 {
     background-color: #78abb2;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 50%;
-    margin-top: 36%;
+    margin-top: 32%;
     cursor: pointer;
     margin-left: 20px;
 }
@@ -1075,7 +1076,7 @@ a:hover {
     position: absolute;
     justify-content: center;
     align-items: center;
-    opacity: 35%;
+    opacity: 29%;
     z-index: 50;
     color: transparent;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
@@ -1090,11 +1091,11 @@ a:hover {
 
 .g3 {
     background-color: #78abb2;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 50%;
-    margin-top: 28%;
+    margin-top: 30%;
     cursor: pointer;
     margin-left: 20px;
 }
@@ -1123,11 +1124,11 @@ a:hover {
 }
 
 .g4 {
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 50%;
-    margin-top: 11%;
+    margin-top: 15%;
     cursor: pointer;
     margin-left: 20px;
 }
@@ -1157,11 +1158,11 @@ a:hover {
 
 .g5 {
     background-color: #78abb2;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 50%;
-    margin-top: 12%;
+    margin-top: 15%;
     cursor: pointer;
     margin-left: 20px;
 }
@@ -1191,7 +1192,7 @@ a:hover {
 
 .g6 {
     background-color: #78abb2;
-    width: 500px;
+    width: 700px;
     height: 10px;
     border-radius: 25px;
     opacity: 50%;
@@ -1312,8 +1313,8 @@ a:hover {
 
 .gewohnheitsbox {
     position: relative;
-    width: 500px;
-    height: 140px;
+    width: 700px;
+    height: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1331,7 +1332,7 @@ a:hover {
 .gewohnheitsbox:hover::before {
     content: '';
     position: absolute;
-    width: 600px;
+    width: 900px;
     height: 370px;
     background: linear-gradient(#9ed2b5, #6485a2);
     animation: gewohnheit 5s linear infinite;
